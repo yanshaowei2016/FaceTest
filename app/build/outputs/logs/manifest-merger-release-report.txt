@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:1:1-70:12
+	package
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:2:5-44
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.CAMERA
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:9:22-68
+application
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:11:5-68:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] D:\androidstudioSample\FaceTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] D:\androidstudioSample\FaceTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:13:8-42
+	android:theme
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.ocrtest.OcrStarCollectActivity
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:18:9-30:20
+	android:screenOrientation
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:22:13-49
+	android:label
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:21:13-45
+	android:configChanges
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:20:13-63
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:19:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.ocrtest.OcrFrontActivity
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:31:9-35:69
+	android:screenOrientation
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:34:13-50
+	android:configChanges
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:33:13-63
+	android:theme
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:35:13-66
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:32:13-56
+activity#com.ocrtest.OcrBackActivity
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:36:9-40:69
+	android:screenOrientation
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:39:13-50
+	android:configChanges
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:38:13-63
+	android:theme
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:40:13-66
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:37:13-55
+activity#com.ocrtest.OcrInformationActivity
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:41:9-44:52
+	android:screenOrientation
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:44:13-49
+	android:configChanges
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:43:13-63
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:42:13-62
+activity#com.chinatelecom.facedetecion.GuideActivity
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:47:9-60:20
+	android:screenOrientation
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:50:13-76
+	android:windowSoftInputMode
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:52:13-72
+	android:configChanges
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:49:13-63
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:48:13-42
+activity#com.chinatelecom.facedetecion.MainActivity
+ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:61:9-67:20
+	android:screenOrientation
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:64:13-49
+	android:windowSoftInputMode
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:66:13-72
+	android:configChanges
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:63:13-63
+	android:theme
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:65:13-55
+	android:name
+		ADDED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml:62:13-41
+uses-sdk
+INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:21.0.3] D:\androidstudioSample\FaceTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] D:\androidstudioSample\FaceTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioSample\FaceTest\app\src\main\AndroidManifest.xml

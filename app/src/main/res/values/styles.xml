@@ -1,0 +1,71 @@
+<resources>
+
+    <style name="AppTheme.NoTitleBar" parent="_AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.NoTitleBar.Fullscreen" parent="@style/AppTheme.NoTitleBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/_AppTheme" />
+
+    <style name="_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:windowBackground">@color/face_window_bg_color</item>
+        <item name="android:windowAnimationStyle">@style/AppAnimation</item>
+        <!-- 以下是ActionBar -->
+        <item name="actionBarStyle">@style/ActionBar.Solid.Apptheme</item>
+    </style>
+    <!-- 以下是ActionBar -->
+    <style name="ActionBar.Solid.Apptheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/face_ab_solid_apptheme</item>
+    </style>
+
+    <style name="AppAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/face_window_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/face_base_stay_orig</item>
+        <item name="android:activityCloseEnterAnimation">@anim/face_base_stay_orig</item>
+        <item name="android:activityCloseExitAnimation">@anim/face_window_right_out</item>
+    </style>
+
+    <!-- 自定义AlertDialog -->
+    <style name="CustomAlertDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxWidth">240dp</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="CustomAlertDialogText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:textColor">@color/main_tab_title_purple</item>
+    </style>
+
+    <style name="CustomAlertDialogText.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!-- 开始采集点击更好背景换色和文字颜色 -->
+    <style name="button_star_collect_click" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@drawable/text_star_collect</item>
+        <item name="android:background">@drawable/btn_star_collect</item>
+    </style>
+
+    <!-- OCR弹出错误对话框 -->
+    <style name="OcrDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>

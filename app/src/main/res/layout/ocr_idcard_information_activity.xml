@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                tools:ignore="DisableBaselineAlignment" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ocr_information_iv_id_front"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:scaleType="centerCrop"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/ocr_idcard_information_front"
+                        android:textColor="@color/text_light_grey1"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/ocr_information_iv_id_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:scaleType="centerCrop"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/ocr_idcard_information_back"
+                        android:textColor="@color/text_light_grey1"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/ocr_idcard_information_message"
+                android:textColor="@color/text_light_grey1"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="center"
+                    android:text="@string/ocr_idcard_information_name"
+                    android:textColor="@color/text_black_color"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ocr_information_et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/text_light_grey1"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="7"
+                    android:src="@drawable/ocr_id_pen"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="center"
+                    android:text="@string/ocr_idcard_information_sex"
+                    android:textColor="@color/text_black_color"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ocr_information_et_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:inputType="text"
+                    android:maxLength="1"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/text_light_grey1"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="7"
+                    android:src="@drawable/ocr_id_pen"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="center"
+                    android:text="@string/ocr_idcard_information_idnumber"
+                    android:textColor="@color/text_black_color"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ocr_information_et_idCard_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/text_light_grey1"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="7"
+                    android:src="@drawable/ocr_id_pen"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="center"
+                    android:text="@string/ocr_idcard_information_validity"
+                    android:textColor="@color/text_black_color"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ocr_information_et_valid_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/text_light_grey1"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="7"
+                    android:src="@drawable/ocr_id_pen"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color" />
+
+            <Button
+                android:id="@+id/ocr_information_iv_btn_commit"
+                style="@style/button_star_collect_click"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/ocr_idcard_information_commit" />
+
+            <TextView
+                android:id="@+id/ocr_information_iv_txt_again_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ocr_idcard_information_again_collect"
+                android:textColor="@color/text_pink"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

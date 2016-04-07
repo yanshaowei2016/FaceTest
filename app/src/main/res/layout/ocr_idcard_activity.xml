@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ocrtest.OcrFrontActivity" >
+
+    <SurfaceView
+        android:id="@+id/ocr_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.chinatelecom.view.IDCardIndicator
+        android:id="@+id/ocr_main_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ocr_id_front" />
+
+    <RelativeLayout
+        android:id="@+id/ocr_rel_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/ocr_main_indicator" >
+
+        <ImageView
+            android:id="@+id/ocr_img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/face_close_icon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/ocr_txt_idcard_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/ocr_idcard_front_title"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ocr_rel_layout_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/translucence"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/ocr_btn_rephotograph"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ocr_id_redo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/ocr_idcard_message"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/ocr_btn_next"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ocr_id_go" />
+    </RelativeLayout>
+
+</RelativeLayout>

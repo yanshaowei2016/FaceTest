@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">人脸采集</string>
+    <string name="progress_loading">加载中...</string>
+    <string name="info_web_loading">正在加载中&#8230;</string>
+    
+    <!-- 人脸采集相关 -->
+    <string name="face_cancel_txt">取消</string>
+    <string name="face_imageview_des">图片说明</string>
+    <string name="face_eye_blink_txt">眨眨眼</string>
+    <string name="face_mouth_open_close_txt">张张嘴</string>
+    <string name="face_head_turn_txt">转转头</string>
+    <string name="face_head_nod_txt">点点头</string>
+    <string name="face_detection_timeout_txt">拍照超时，再试一次吧</string>
+    <string name="face_detection_repair_again_txt">您可以尝试</string>
+    <string name="face_detection_adjust_light_txt">调整光线</string>
+    <string name="face_detection_enfilade_phone_txt">正对手机</string>
+    <string name="face_detection_slow_action_txt">放慢动作</string>
+    <string name="face_detection_exceed_num_prompt_txt">人脸采集失败，是否需要选择其他通道进行认证？</string>
+    <string name="face_detection_commit_exception_prompt_txt">人脸识别发生异常，这个好像不是你哦，请再试一次吧。</string>
+    <string name="face_detection_collecting_txt">正在采集</string>
+    <string name="face_detection_other_method_txt">其他方式</string>
+    <string name="face_detection_repair_txt">重新尝试</string>
+    <string name="face_detection_success_txt">采集成功</string>
+    <string name="face_detection_start_prompt_txt1">采集人脸信息</string>
+    <string name="face_detection_start_prompt_txt2">请正对手机\n保持光线充足、脸部无遮挡</string>
+    <string name="face_detection_start_prompt_txt3">本操作仅限于身份验证，请确保是本人操作</string>
+    <string name="face_detection_start_txt">开始采集</string>
+    <string name="face_detection_guide_activity_title_txt">身份信息</string>
+    <string name="ocr_title">身份信息</string>
+    <!-- ocr_star_collect -->
+    <string name="ocr_idcard_star_collect">开始采集</string>
+    <string name="ocr_idcard_star_collect_tip1">采集身份证信息</string>
+    <string name="ocr_idcard_star_collect_tip2">请将手机正对身份证，并减少反光的影响</string>
+    <string name="ocr_idcard_star_collect_tip3">本操作仅用于身份验证，请确保是本人操作</string>
+    <!-- ocr_id_card -->
+    <string name="ocr_idcard_front_title">正在采集身份证人像面，请尽量对齐边缘</string>
+    <string name="ocr_idcard_back_title">正在采集身份证国徽面，请尽量对齐边缘</string>
+    <string name="ocr_idcard_message">采集成功，如不清晰，可尝试“重拍”</string>
+    <string name="ocr_idcard_dialog_message">身份证识别发生异常，请再试一次吧。</string>
+    <!-- ocr_information -->
+    <string name="ocr_idcard_commit_success_txt">提交成功</string>
+    <string name="ocr_idcard_information_front">人像面</string>
+    <string name="ocr_idcard_information_back">国徽面</string>
+    <string name="ocr_idcard_information_message">请务必核实身份证无误</string>
+    <string name="ocr_idcard_information_commit">确认并提交</string>
+    <string name="ocr_idcard_information_again_collect">重新采集</string>
+    <string name="ocr_idcard_information_name">姓名&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="ocr_idcard_information_sex">性别&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="ocr_idcard_information_idnumber">身份证号</string>
+    <string name="ocr_idcard_information_validity">有效期至</string>
+    <string name="ocr_idcard_dialog_confirm">确定</string>
+    <string name="ocr_idcard_dialog_cancel">取消</string>
+
+</resources>

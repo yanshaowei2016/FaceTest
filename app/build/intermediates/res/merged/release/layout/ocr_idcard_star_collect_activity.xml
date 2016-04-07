@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/ocr_idcard_star_collect_tip1"
+                android:textColor="@color/text_pink"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ocr_id"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="@string/ocr_idcard_star_collect_tip2"
+                android:textColor="@color/text_light_grey2"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/ocr_btn_star_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_star_collect"
+                android:gravity="center"
+                android:text="@string/ocr_idcard_star_collect"
+                android:textColor="@drawable/text_star_collect"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/ocr_idcard_star_collect_tip3"
+                android:textColor="@color/text_light_grey2"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,318 @@
+[
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id_pen.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id_pen.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id_b_enable.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id_b_enable.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_step_one_normal.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_step_one_normal.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id_go.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id_go.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_enfilade_phone_icon.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_enfilade_phone_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_close_icon.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_close_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_slow_action_icon.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_slow_action_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_success_icon.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_success_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_ab_solid_apptheme.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_ab_solid_apptheme.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_mouth_open.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_mouth_open.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_light.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_dialog_normal.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\btn_dialog_normal.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_detection_sound_opened.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_detection_sound_opened.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_step_two_pressed.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_step_two_pressed.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_eye_open.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_eye_open.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_collecting_btn_pressed.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_collecting_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_collecting_btn_normal.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_collecting_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_step_three_normal.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_step_three_normal.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_head_nod.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_head_nod.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_detection_sound_closed.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_detection_sound_closed.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_step_two_normal.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_step_two_normal.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_detection_guide_bg.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_detection_guide_bg.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_circle.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\loading_circle.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_step_one_pressed.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_step_one_pressed.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id_front.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id_front.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_mouth_close.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_mouth_close.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_adjust_light_icon.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_adjust_light_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id_popup_white.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id_popup_white.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id_back.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id_back.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_head.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_head.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_eye_close.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_eye_close.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_toast_icon.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_toast_icon.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_step_three_pressed.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_step_three_pressed.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id_b_press.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id_b_press.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_detection_head.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_detection_head.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_ab_goback_apptheme.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_ab_goback_apptheme.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_detection_head_grey.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_detection_head_grey.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ocr_id_redo.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\ocr_id_redo.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_dialog_right_normal.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\btn_dialog_right_normal.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_head_turn_right.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_head_turn_right.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_prompt_icon.9.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_prompt_icon.9.png"
+    },
+    {
+        "merged": "D:\\androidstudioSample\\FaceTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face_head_turn_left.png",
+        "source": "D:\\androidstudioSample\\FaceTest\\app\\src\\main\\res\\drawable-hdpi\\face_head_turn_left.png"
+    }
+]

@@ -1,0 +1,1909 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Lint Report</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" type="text/css" href="lint-results-debug_files/hololike.css" />
+<script language="javascript" type="text/javascript"> 
+<!--
+function reveal(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'block';
+document.getElementById(id+'Link').style.display = 'none';
+}
+}
+//--> 
+</script>
+</head>
+<body>
+<h1>Lint Report</h1>
+<div class="titleSeparator"></div>
+Check performed at Thu Apr 07 11:22:54 CST 2016.<br/>
+1 errors and 166 warnings found:<br/><br/>
+<table class="overview">
+<tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-error.png" alt="Error" />
+<a href="#MissingPermission">MissingPermission: Missing Permissions</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#OldTargetApi">OldTargetApi: Target SDK attribute is not targeting latest version</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#InflateParams">InflateParams: Layout Inflation without a Parent</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#GradleDependency">GradleDependency: Obsolete Gradle Dependency</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#DisableBaselineAlignment">DisableBaselineAlignment: Missing <code>baselineAligned</code> attribute</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#InefficientWeight">InefficientWeight: Inefficient layout weight</a>
+</td></tr>
+<tr>
+<td class="countColumn">7</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#Overdraw">Overdraw: Overdraw: Painting regions more than once</a>
+</td></tr>
+<tr>
+<td class="countColumn">102</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#UnusedResources">UnusedResources: Unused resources</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#UselessParent">UselessParent: Useless parent layout</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Typography">Usability:Typography</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#TypographyEllipsis">TypographyEllipsis: Ellipsis string can be replaced with ellipsis character</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconDipSize">IconDipSize: Icon density-independent size validation</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconDuplicatesConfig">IconDuplicatesConfig: Identical bitmaps across various configurations</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconDensities">IconDensities: Icon densities validation</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconMissingDensityFolder">IconMissingDensityFolder: Missing density folder</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability">Usability</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#GoogleAppIndexingWarning">GoogleAppIndexingWarning: Missing support for Google App Indexing</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#TextFields">TextFields: Missing <code>inputType</code> or <code>hint</code></a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Accessibility">Accessibility</a>
+</td></tr>
+<tr>
+<td class="countColumn">10</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#ContentDescription">ContentDescription: Image without <code>contentDescription</code></a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
+</td></tr>
+<tr>
+<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#HardcodedText">HardcodedText: Hardcoded text</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#RelativeOverlap">RelativeOverlap: Overlapping items in RelativeLayout</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Internationalization:Bidirectional Text">Internationalization:Bidirectional Text</a>
+</td></tr>
+<tr>
+<td class="countColumn">5</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#RtlSymmetry">RtlSymmetry: Padding and margin symmetry</a>
+</td></tr>
+<tr>
+<td class="countColumn">20</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#RtlHardcoded">RtlHardcoded: Using left/right instead of start/end attributes</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (15)</a>
+</td></tr></table>
+<br/>
+<a name="Correctness"></a>
+<div class="category"><a href="#" title="Return to top">Correctness</a><div class="categorySeparator"></div>
+</div>
+<a name="MissingPermission"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">MissingPermission: Missing Permissions</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/chinatelecom/facedetecion/util/Utils.java">../../src/main/java/com/chinatelecom/facedetecion/util/Utils.java</a>:113</span>: <span class="message">Missing permissions required by WifiManager.getConnectionInfo: android.permission.ACCESS_WIFI_STATE</span><br /><pre class="errorlines">
+<span class="lineno"> 110</span> 	public static String getWifiMac(Context ctx) {
+<span class="lineno"> 111</span> 		WifiManager wifi = (WifiManager) ctx
+<span class="lineno"> 112</span> 				.getSystemService(Context.WIFI_SERVICE);
+<span class="lineno"> 113</span> 		WifiInfo info = <span class="errorspan">wifi.getConnectionInfo();</span>
+<span class="lineno"> 114</span> 		return info.getMacAddress();
+<span class="lineno"> 115</span> 	}
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 9 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: Missing Permissions.</div>
+<div class="explanation">
+This check scans through your code and libraries and looks at the APIs being used, and checks this against the set of permissions required to access those APIs. If the code using those APIs is called at runtime, then the program will crash.<br/>
+<br/>
+Furthermore, for permissions that are revocable (with targetSdkVersion 23), client code must also be prepared to handle the calls throwing an exception if the user rejects the request for permission at runtime.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "MissingPermission" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="OldTargetApi"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">OldTargetApi: Target SDK attribute is not targeting latest version</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:10</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
+<span class="lineno">   7</span>     defaultConfig {
+<span class="lineno">   8</span>         applicationId "com.chinatelecom.facedetecion"
+<span class="lineno">   9</span>         minSdkVersion 10
+<span class="lineno">  10</span>         <span class="errorspan">targetSdkVersion 21</span>
+<span class="lineno">  11</span>         versionCode 1
+<span class="lineno">  12</span>         versionName "1.0"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Target SDK attribute is not targeting latest version.</div>
+<div class="explanation">
+When your application runs on a version of Android that is more recent than your <code>targetSdkVersion</code> specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the <code>targetSdkVersion</code> is less than 14, your app may get an option button in the UI.<br/>
+<br/>
+To fix this issue, set the <code>targetSdkVersion</code> to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div><br/>To suppress this error, use the issue id "OldTargetApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="InflateParams"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">InflateParams: Layout Inflation without a Parent</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/ocrtest/view/OcrDialog.java">../../src/main/java/com/ocrtest/view/OcrDialog.java</a>:42</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno">  39</span> 	
+<span class="lineno">  40</span> 	@Override
+<span class="lineno">  41</span> 	public Dialog onCreateDialog(Bundle savedInstanceState) {
+<span class="lineno">  42</span> 		View v = getActivity().getLayoutInflater().inflate(R.layout.ocr_idcard_dialog, <span class="errorspan">null);</span>
+<span class="lineno">  43</span> 		Button btnCancel = (Button) v.findViewById(R.id.ocr_dialog_btn_cancel);
+<span class="lineno">  44</span> 		btnCancel.setOnClickListener(this);
+</pre>
+<span class="location"><a href="../../src/main/java/com/chinatelecom/facedetecion/view/SimpleDialogFragment.java">../../src/main/java/com/chinatelecom/facedetecion/view/SimpleDialogFragment.java</a>:61</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno">  58</span> 	public Dialog onCreateDialog(Bundle savedInstanceState) {
+<span class="lineno">  59</span> 		// TODO Auto-generated method stub
+<span class="lineno">  60</span> 		View v = getActivity().getLayoutInflater().inflate(
+<span class="lineno">  61</span> 				R.layout.custom_alert_dialog, <span class="errorspan">null);</span>
+<span class="lineno">  62</span> 		TextView titleTv = (TextView) v.findViewById(R.id.alertTitle);
+<span class="lineno">  63</span> 		TextView massageTV = (TextView) v.findViewById(R.id.message);
+</pre>
+<span class="location"><a href="../../src/main/java/com/chinatelecom/facedetecion/view/SimpleTimeOutDialogFragment.java">../../src/main/java/com/chinatelecom/facedetecion/view/SimpleTimeOutDialogFragment.java</a>:53</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno">  50</span> 	public Dialog onCreateDialog(Bundle savedInstanceState) {
+<span class="lineno">  51</span> 		// TODO Auto-generated method stub
+<span class="lineno">  52</span> 		View v = getActivity().getLayoutInflater().inflate(
+<span class="lineno">  53</span> 				R.layout.custom_alert_dialog, <span class="errorspan">null);</span>
+<span class="lineno">  54</span> 
+<span class="lineno">  55</span> 		Button posBtn = (Button) v.findViewById(R.id.positiveButton);
+</pre>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Layout Inflation without a Parent.</div>
+<div class="explanation">
+When inflating a layout, avoid passing in null as the parent view, since otherwise any layout parameters on the root of the inflated layout will be ignored.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://www.doubleencore.com/2013/05/layout-inflation-as-intended">http://www.doubleencore.com/2013/05/layout-inflation-as-intended</a>
+</div><br/>To suppress this error, use the issue id "InflateParams" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="GradleDependency"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GradleDependency: Obsolete Gradle Dependency</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:33</span>: <span class="message">A newer version of com.android.support:appcompat-v7 than 21.0.3 is available: 23.1.1</span><br /><pre class="errorlines">
+<span class="lineno">  30</span> }
+<span class="lineno">  31</span> 
+<span class="lineno">  32</span> dependencies {
+<span class="lineno">  33</span>     <span class="errorspan">compile 'com.android.support:appcompat-v7:21.0.3'</span>
+<span class="lineno">  34</span>     compile files('libs/face.jar')
+<span class="lineno">  35</span>     compile files('libs/idcardquality_v1.0.2.jar')
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Obsolete Gradle Dependency.</div>
+<div class="explanation">
+This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "GradleDependency" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Performance"></a>
+<div class="category"><a href="#" title="Return to top">Performance</a><div class="categorySeparator"></div>
+</div>
+<a name="DisableBaselineAlignment"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">DisableBaselineAlignment: Missing <code>baselineAligned</code> attribute</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/face_timeout_custemdialog.xml">../../src/main/res/layout/face_timeout_custemdialog.xml</a>:25</span>: <span class="message">Set <code>android:baselineAligned="false"</code> on this element for better performance</span><br /><pre class="errorlines">
+<span class="lineno">  22</span>         android:textColor="#888888"
+<span class="lineno">  23</span>         android:textSize="16sp" />
+<span class="lineno">  24</span> 
+<span class="lineno">  25</span>     <span class="errorspan">&lt;LinearLayout</span>
+<span class="lineno">  26</span>         android:layout_width="fill_parent"
+<span class="lineno">  27</span>         android:layout_height="wrap_content"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing <code>baselineAligned</code> attribute.</div>
+<div class="explanation">
+When a LinearLayout is used to distribute the space proportionally between nested layouts, the baseline alignment property should be turned off to make the layout computation faster.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "DisableBaselineAlignment" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="InefficientWeight"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">InefficientWeight: Inefficient layout weight</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/custom_alert_dialog.xml">../../src/main/res/layout/custom_alert_dialog.xml</a>:30</span>: <span class="message">Use a <code>layout_height</code> of <code>0dp</code> instead of <code>wrap_content</code> for better performance</span><br /><pre class="errorlines">
+<span class="lineno">  27</span>     &lt;LinearLayout
+<span class="lineno">  28</span>         android:id="@+id/contentPanel"
+<span class="lineno">  29</span>         android:layout_width="match_parent"
+<span class="lineno">  30</span>         <span class="errorspan">android:layout_height="wrap_content"</span>
+<span class="lineno">  31</span>         android:layout_marginBottom="10dp"
+<span class="lineno">  32</span>         android:layout_marginTop="10dp"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Inefficient layout weight.</div>
+<div class="explanation">
+When only a single widget in a LinearLayout defines a weight, it is more efficient to assign a width/height of <code>0dp</code> to it since it will absorb all the remaining space anyway. With a declared width/height of <code>0dp</code> it does not have to measure its own size first.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "InefficientWeight" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="Overdraw"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">Overdraw: Overdraw: Painting regions more than once</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/custom_progress_dialog.xml">../../src/main/res/layout/custom_progress_dialog.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/face_toast_icon</code> with a theme that also paints a background (inferred theme is <code>@style/AppTheme</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content"
+<span class="lineno">   5</span>     android:layout_gravity="center"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="@drawable/face_toast_icon"</span>
+<span class="lineno">   7</span>     android:gravity="center"
+<span class="lineno">   8</span>     android:orientation="vertical"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_custom_action_bar.xml">../../src/main/res/layout/face_custom_action_bar.xml</a>:5</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/face_ab_solid_apptheme</code> with a theme that also paints a background (inferred theme is <code>@style/AppTheme</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   2</span> &lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<span class="lineno">   3</span>     android:layout_width="match_parent"
+<span class="lineno">   4</span>     android:layout_height="48dp"
+<span class="lineno">   5</span>     <span class="errorspan">android:background="@drawable/face_ab_solid_apptheme" ></span>
+<span class="lineno">   6</span> 
+<span class="lineno">   7</span>     &lt;ImageView
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>#CC363636</code> with a theme that also paints a background (inferred theme is <code>@style/AppTheme</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     android:id="@+id/face_detection_rootRel"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+<span class="lineno">   5</span>     android:layout_height="match_parent"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="#CC363636" ></span>
+<span class="lineno">   7</span> 
+<span class="lineno">   8</span>     &lt;SurfaceView
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_toast.xml">../../src/main/res/layout/face_toast.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/face_toast_icon</code> with a theme that also paints a background (inferred theme is <code>@style/AppTheme</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content"
+<span class="lineno">   5</span>     android:layout_gravity="center"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="@drawable/face_toast_icon"</span>
+<span class="lineno">   7</span>     android:gravity="center"
+<span class="lineno">   8</span>     android:orientation="vertical" >
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_dialog.xml">../../src/main/res/layout/ocr_idcard_dialog.xml</a>:5</span>: <span class="message">Possible overdraw: Root element paints background <code>@drawable/ocr_id_popup_white</code> with a theme that also paints a background (inferred theme is <code>@style/AppTheme</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   2</span> &lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<span class="lineno">   3</span>     android:layout_width="match_parent"
+<span class="lineno">   4</span>     android:layout_height="wrap_content"
+<span class="lineno">   5</span>     <span class="errorspan">android:background="@drawable/ocr_id_popup_white"</span>
+<span class="lineno">   6</span>     android:orientation="vertical" >
+<span class="lineno">   7</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@color/back_color</code> with a theme that also paints a background (inferred theme is <code>@style/AppTheme</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     xmlns:tools="http://schemas.android.com/tools"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+<span class="lineno">   5</span>     android:layout_height="match_parent"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="@color/back_color"</span>
+<span class="lineno">   7</span>     android:orientation="vertical" >
+<span class="lineno">   8</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_star_collect_activity.xml">../../src/main/res/layout/ocr_idcard_star_collect_activity.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@color/back_color</code> with a theme that also paints a background (inferred theme is <code>@style/AppTheme</code>)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     xmlns:tools="http://schemas.android.com/tools"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+<span class="lineno">   5</span>     android:layout_height="match_parent"
+<span class="lineno">   6</span>     <span class="errorspan">android:background="@color/back_color"</span>
+<span class="lineno">   7</span>     android:orientation="vertical" >
+<span class="lineno">   8</span> 
+</pre>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Overdraw: Painting regions more than once.</div>
+<div class="explanation">
+If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called "overdraw".<br/>
+<br/>
+NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it's currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.<br/>
+<br/>
+If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.<br/>
+<br/>
+Of course it's possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead.<br/>
+
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "Overdraw" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedResources"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UnusedResources: Unused resources</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:5</span>: <span class="message">The resource <code>R.color.back_color</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   2</span> &lt;resources>
+<span class="lineno">   3</span>     
+<span class="lineno">   4</span>     &lt;color name="white">#FFFFFF&lt;/color>
+<span class="lineno">   5</span>     &lt;color <span class="errorspan">name="back_color">#F5F5F5&lt;/color></span>
+<span class="lineno">   6</span>     &lt;color name="gray">#EAEAEA&lt;/color>
+<span class="lineno">   7</span>     &lt;color name="line_color">#E6E6E6&lt;/color>
+</pre>
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:6</span>: <span class="message">The resource <code>R.color.gray</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     
+<span class="lineno">   4</span>     &lt;color name="white">#FFFFFF&lt;/color>
+<span class="lineno">   5</span>     &lt;color name="back_color">#F5F5F5&lt;/color>
+<span class="lineno">   6</span>     &lt;color <span class="errorspan">name="gray">#EAEAEA&lt;/color></span>
+<span class="lineno">   7</span>     &lt;color name="line_color">#E6E6E6&lt;/color>
+<span class="lineno">   8</span>     &lt;color name="text_black_color">#363636&lt;/color>
+</pre>
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:9</span>: <span class="message">The resource <code>R.color.black</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   6</span>     &lt;color name="gray">#EAEAEA&lt;/color>
+<span class="lineno">   7</span>     &lt;color name="line_color">#E6E6E6&lt;/color>
+<span class="lineno">   8</span>     &lt;color name="text_black_color">#363636&lt;/color>
+<span class="lineno">   9</span>     &lt;color <span class="errorspan">name="black">#000000&lt;/color></span>
+<span class="lineno">  10</span>     &lt;color name="text_light_grey1">#a7a7a7&lt;/color>
+<span class="lineno">  11</span>     &lt;color name="text_light_grey2">#9a9a9a&lt;/color>
+</pre>
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:10</span>: <span class="message">The resource <code>R.color.text_light_grey1</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   7</span>     &lt;color name="line_color">#E6E6E6&lt;/color>
+<span class="lineno">   8</span>     &lt;color name="text_black_color">#363636&lt;/color>
+<span class="lineno">   9</span>     &lt;color name="black">#000000&lt;/color>
+<span class="lineno">  10</span>     &lt;color <span class="errorspan">name="text_light_grey1">#a7a7a7&lt;/color></span>
+<span class="lineno">  11</span>     &lt;color name="text_light_grey2">#9a9a9a&lt;/color>
+<span class="lineno">  12</span>     &lt;color name="text_pink">#ff2d55&lt;/color>
+</pre>
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:11</span>: <span class="message">The resource <code>R.color.text_light_grey2</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     &lt;color name="text_black_color">#363636&lt;/color>
+<span class="lineno">   9</span>     &lt;color name="black">#000000&lt;/color>
+<span class="lineno">  10</span>     &lt;color name="text_light_grey1">#a7a7a7&lt;/color>
+<span class="lineno">  11</span>     &lt;color <span class="errorspan">name="text_light_grey2">#9a9a9a&lt;/color></span>
+<span class="lineno">  12</span>     &lt;color name="text_pink">#ff2d55&lt;/color>
+<span class="lineno">  13</span>     &lt;color name="translucence">#77000000&lt;/color>
+</pre>
+<button id="UnusedResourcesDivLink" onclick="reveal('UnusedResourcesDiv');" />+ 97 More Occurrences...</button>
+<div id="UnusedResourcesDiv" style="display: none">
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:13</span>: <span class="message">The resource <code>R.color.translucence</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  10</span>     &lt;color name="text_light_grey1">#a7a7a7&lt;/color>
+<span class="lineno">  11</span>     &lt;color name="text_light_grey2">#9a9a9a&lt;/color>
+<span class="lineno">  12</span>     &lt;color name="text_pink">#ff2d55&lt;/color>
+<span class="lineno">  13</span>     &lt;color <span class="errorspan">name="translucence">#77000000&lt;/color></span>
+<span class="lineno">  14</span> 
+<span class="lineno">  15</span>     &lt;!-- &#25991;&#23383;&#39068;&#33394;&#65306;&#32043;&#33394; -->
+</pre>
+<span class="location"><a href="../../src/main/res/values/dimens.xml">../../src/main/res/values/dimens.xml</a>:4</span>: <span class="message">The resource <code>R.dimen.activity_horizontal_margin</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;resources>
+<span class="lineno">   2</span> 
+<span class="lineno">   3</span>     &lt;!-- Default screen margins, per the Android Design guidelines. -->
+<span class="lineno">   4</span>     &lt;dimen <span class="errorspan">name="activity_horizontal_margin">16dp&lt;/dimen></span>
+<span class="lineno">   5</span>     &lt;dimen name="activity_vertical_margin">16dp&lt;/dimen>
+<span class="lineno">   6</span> 
+</pre>
+<ul></ul><button id="Location7DivLink" onclick="reveal('Location7Div');" />+ 1 Additional Locations...</button>
+<div id="Location7Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-w820dp/dimens.xml">../../src/main/res/values-w820dp/dimens.xml</a>:8</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/dimens.xml">../../src/main/res/values/dimens.xml</a>:5</span>: <span class="message">The resource <code>R.dimen.activity_vertical_margin</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   2</span> 
+<span class="lineno">   3</span>     &lt;!-- Default screen margins, per the Android Design guidelines. -->
+<span class="lineno">   4</span>     &lt;dimen name="activity_horizontal_margin">16dp&lt;/dimen>
+<span class="lineno">   5</span>     &lt;dimen <span class="errorspan">name="activity_vertical_margin">16dp&lt;/dimen></span>
+<span class="lineno">   6</span> 
+<span class="lineno">   7</span> &lt;/resources>
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_ab_goback_apptheme.9.png">../../src/main/res/drawable-hdpi/face_ab_goback_apptheme.9.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_ab_goback_apptheme.9.png" /><span class="message">The resource <code>R.drawable.face_ab_goback_apptheme</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_adjust_light_icon.png">../../src/main/res/drawable-hdpi/face_adjust_light_icon.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_adjust_light_icon.png" /><span class="message">The resource <code>R.drawable.face_adjust_light_icon</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/raw/face_best.ogg">../../src/main/res/raw/face_best.ogg</a></span>: <span class="message">The resource <code>R.raw.face_best</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_close_icon.png">../../src/main/res/drawable-hdpi/face_close_icon.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_close_icon.png" /><span class="message">The resource <code>R.drawable.face_close_icon</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_collecting_btn_normal.9.png">../../src/main/res/drawable-hdpi/face_collecting_btn_normal.9.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_collecting_btn_normal.9.png" /><span class="message">The resource <code>R.drawable.face_collecting_btn_normal</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_collecting_btn_pressed.9.png">../../src/main/res/drawable-hdpi/face_collecting_btn_pressed.9.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_collecting_btn_pressed.9.png" /><span class="message">The resource <code>R.drawable.face_collecting_btn_pressed</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/face_collecting_btn_selector.xml">../../src/main/res/drawable/face_collecting_btn_selector.xml</a>:2</span>: <span class="message">The resource <code>R.drawable.face_collecting_btn_selector</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;selector xmlns:android="http://schemas.android.com/apk/res/android" ></span>
+<span class="lineno">   3</span>     &lt;item   
+<span class="lineno">   4</span>         android:state_pressed="true"   
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_custom_action_bar.xml">../../src/main/res/layout/face_custom_action_bar.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_custom_action_bar</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:layout_width="match_parent"
+<span class="lineno">   4</span>     android:layout_height="48dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_detection_activity</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:id="@+id/face_detection_rootRel"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_guide_activity.xml">../../src/main/res/layout/face_detection_guide_activity.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_detection_guide_activity</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     xmlns:tools="http://schemas.android.com/tools"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_detection_guide_bg.png">../../src/main/res/drawable-hdpi/face_detection_guide_bg.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_detection_guide_bg.png" /><span class="message">The resource <code>R.drawable.face_detection_guide_bg</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_detection_head.png">../../src/main/res/drawable-hdpi/face_detection_head.png</a></span>: <span class="message">The resource <code>R.drawable.face_detection_head</code> appears to be unused</span><br />
+<ul></ul><button id="Location20DivLink" onclick="reveal('Location20Div');" />+ 2 Additional Locations...</button>
+<div id="Location20Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-ldpi/face_detection_head.png">../../src/main/res/drawable-ldpi/face_detection_head.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-mdpi/face_detection_head.png">../../src/main/res/drawable-mdpi/face_detection_head.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../src/main/res/drawable-hdpi/face_detection_head.png"><img border="0" align="top" src="../../src/main/res/drawable-hdpi/face_detection_head.png" /></a>
+</td><td><a href="../../src/main/res/drawable-mdpi/face_detection_head.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/face_detection_head.png" /></a>
+</td><td><a href="../../src/main/res/drawable-ldpi/face_detection_head.png"><img border="0" align="top" src="../../src/main/res/drawable-ldpi/face_detection_head.png" /></a>
+</td></tr><tr><th>hdpi</th><th>mdpi</th><th>ldpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_detection_head_grey.png">../../src/main/res/drawable-hdpi/face_detection_head_grey.png</a></span>: <span class="message">The resource <code>R.drawable.face_detection_head_grey</code> appears to be unused</span><br />
+<ul></ul><button id="Location21DivLink" onclick="reveal('Location21Div');" />+ 2 Additional Locations...</button>
+<div id="Location21Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-ldpi/face_detection_head_grey.png">../../src/main/res/drawable-ldpi/face_detection_head_grey.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-mdpi/face_detection_head_grey.png">../../src/main/res/drawable-mdpi/face_detection_head_grey.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../src/main/res/drawable-hdpi/face_detection_head_grey.png"><img border="0" align="top" src="../../src/main/res/drawable-hdpi/face_detection_head_grey.png" /></a>
+</td><td><a href="../../src/main/res/drawable-mdpi/face_detection_head_grey.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/face_detection_head_grey.png" /></a>
+</td><td><a href="../../src/main/res/drawable-ldpi/face_detection_head_grey.png"><img border="0" align="top" src="../../src/main/res/drawable-ldpi/face_detection_head_grey.png" /></a>
+</td></tr><tr><th>hdpi</th><th>mdpi</th><th>ldpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_detection_sound_closed.png">../../src/main/res/drawable-hdpi/face_detection_sound_closed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_detection_sound_closed.png" /><span class="message">The resource <code>R.drawable.face_detection_sound_closed</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_detection_sound_opened.png">../../src/main/res/drawable-hdpi/face_detection_sound_opened.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_detection_sound_opened.png" /><span class="message">The resource <code>R.drawable.face_detection_sound_opened</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/layout/face_detection_step.xml">../../src/main/res/layout/face_detection_step.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_detection_step</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:id="@+id/main_pos_layout"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../src/main/res/raw/face_detection_type_eye_blink.ogg">../../src/main/res/raw/face_detection_type_eye_blink.ogg</a></span>: <span class="message">The resource <code>R.raw.face_detection_type_eye_blink</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/raw/face_detection_type_mouth_open.ogg">../../src/main/res/raw/face_detection_type_mouth_open.ogg</a></span>: <span class="message">The resource <code>R.raw.face_detection_type_mouth_open</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/raw/face_detection_type_pitch_down.ogg">../../src/main/res/raw/face_detection_type_pitch_down.ogg</a></span>: <span class="message">The resource <code>R.raw.face_detection_type_pitch_down</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/raw/face_detection_type_yaw_right.ogg">../../src/main/res/raw/face_detection_type_yaw_right.ogg</a></span>: <span class="message">The resource <code>R.raw.face_detection_type_yaw_right</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_enfilade_phone_icon.png">../../src/main/res/drawable-hdpi/face_enfilade_phone_icon.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_enfilade_phone_icon.png" /><span class="message">The resource <code>R.drawable.face_enfilade_phone_icon</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_eye_close.png">../../src/main/res/drawable-hdpi/face_eye_close.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_eye_close.png" /><span class="message">The resource <code>R.drawable.face_eye_close</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_eye_open.png">../../src/main/res/drawable-hdpi/face_eye_open.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_eye_open.png" /><span class="message">The resource <code>R.drawable.face_eye_open</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/anim/face_eye_open_closed.xml">../../src/main/res/anim/face_eye_open_closed.xml</a>:2</span>: <span class="message">The resource <code>R.anim.face_eye_open_closed</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;animation-list xmlns:android="http://schemas.android.com/apk/res/android" ></span>
+<span class="lineno">   3</span> 
+<span class="lineno">   4</span>     &lt;item
+</pre>
+<span class="location"><a href="../../src/main/res/raw/face_good.ogg">../../src/main/res/raw/face_good.ogg</a></span>: <span class="message">The resource <code>R.raw.face_good</code> appears to be unused</span><br />
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_head.png">../../src/main/res/drawable-hdpi/face_head.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_head.png" /><span class="message">The resource <code>R.drawable.face_head</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_head_nod.png">../../src/main/res/drawable-hdpi/face_head_nod.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_head_nod.png" /><span class="message">The resource <code>R.drawable.face_head_nod</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/anim/face_head_pitch.xml">../../src/main/res/anim/face_head_pitch.xml</a>:2</span>: <span class="message">The resource <code>R.anim.face_head_pitch</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;animation-list xmlns:android="http://schemas.android.com/apk/res/android" ></span>
+<span class="lineno">   3</span> 
+<span class="lineno">   4</span>     &lt;item
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_head_turn_left.png">../../src/main/res/drawable-hdpi/face_head_turn_left.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_head_turn_left.png" /><span class="message">The resource <code>R.drawable.face_head_turn_left</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_head_turn_right.png">../../src/main/res/drawable-hdpi/face_head_turn_right.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_head_turn_right.png" /><span class="message">The resource <code>R.drawable.face_head_turn_right</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/anim/face_head_yaw.xml">../../src/main/res/anim/face_head_yaw.xml</a>:2</span>: <span class="message">The resource <code>R.anim.face_head_yaw</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;animation-list xmlns:android="http://schemas.android.com/apk/res/android"></span>
+<span class="lineno">   3</span> &lt;item android:drawable="@drawable/face_head" android:duration="500"/>
+<span class="lineno">   4</span> &lt;item android:drawable="@drawable/face_head_turn_right" android:duration="500"/>
+</pre>
+<span class="location"><a href="../../src/main/res/anim/face_leftout.xml">../../src/main/res/anim/face_leftout.xml</a>:2</span>: <span class="message">The resource <code>R.anim.face_leftout</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;translate xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>            android:interpolator="@android:anim/linear_interpolator"
+<span class="lineno">   4</span>            android:duration="200"
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_mouth_close.png">../../src/main/res/drawable-hdpi/face_mouth_close.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_mouth_close.png" /><span class="message">The resource <code>R.drawable.face_mouth_close</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_mouth_open.png">../../src/main/res/drawable-hdpi/face_mouth_open.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_mouth_open.png" /><span class="message">The resource <code>R.drawable.face_mouth_open</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/anim/face_mouth_open_closed.xml">../../src/main/res/anim/face_mouth_open_closed.xml</a>:2</span>: <span class="message">The resource <code>R.anim.face_mouth_open_closed</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;animation-list xmlns:android="http://schemas.android.com/apk/res/android" ></span>
+<span class="lineno">   3</span> 
+<span class="lineno">   4</span>     &lt;item
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_prompt_icon.9.png">../../src/main/res/drawable-hdpi/face_prompt_icon.9.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_prompt_icon.9.png" /><span class="message">The resource <code>R.drawable.face_prompt_icon</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/anim/face_rightin.xml">../../src/main/res/anim/face_rightin.xml</a>:2</span>: <span class="message">The resource <code>R.anim.face_rightin</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;translate xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>            android:duration="200"
+<span class="lineno">   4</span>            android:interpolator="@android:anim/linear_interpolator"
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_slow_action_icon.png">../../src/main/res/drawable-hdpi/face_slow_action_icon.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_slow_action_icon.png" /><span class="message">The resource <code>R.drawable.face_slow_action_icon</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/layout/face_step_one_layout.xml">../../src/main/res/layout/face_step_one_layout.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_step_one_layout</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content" >
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_step_one_normal.png">../../src/main/res/drawable-hdpi/face_step_one_normal.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_step_one_normal.png" /><span class="message">The resource <code>R.drawable.face_step_one_normal</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_step_one_pressed.png">../../src/main/res/drawable-hdpi/face_step_one_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_step_one_pressed.png" /><span class="message">The resource <code>R.drawable.face_step_one_pressed</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/layout/face_step_three_layout.xml">../../src/main/res/layout/face_step_three_layout.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_step_three_layout</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content" >
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_step_three_normal.png">../../src/main/res/drawable-hdpi/face_step_three_normal.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_step_three_normal.png" /><span class="message">The resource <code>R.drawable.face_step_three_normal</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_step_three_pressed.png">../../src/main/res/drawable-hdpi/face_step_three_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_step_three_pressed.png" /><span class="message">The resource <code>R.drawable.face_step_three_pressed</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/layout/face_step_two_layout.xml">../../src/main/res/layout/face_step_two_layout.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_step_two_layout</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content" >
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_step_two_normal.png">../../src/main/res/drawable-hdpi/face_step_two_normal.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_step_two_normal.png" /><span class="message">The resource <code>R.drawable.face_step_two_normal</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_step_two_pressed.png">../../src/main/res/drawable-hdpi/face_step_two_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_step_two_pressed.png" /><span class="message">The resource <code>R.drawable.face_step_two_pressed</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/face_success_icon.png">../../src/main/res/drawable-hdpi/face_success_icon.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/face_success_icon.png" /><span class="message">The resource <code>R.drawable.face_success_icon</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/layout/face_timeout_custemdialog.xml">../../src/main/res/layout/face_timeout_custemdialog.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_timeout_custemdialog</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:layout_width="match_parent"
+<span class="lineno">   4</span>     android:layout_height="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_toast.xml">../../src/main/res/layout/face_toast.xml</a>:2</span>: <span class="message">The resource <code>R.layout.face_toast</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ocr_id.png">../../src/main/res/drawable-hdpi/ocr_id.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/ocr_id.png" /><span class="message">The resource <code>R.drawable.ocr_id</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ocr_id_back.png">../../src/main/res/drawable-hdpi/ocr_id_back.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/ocr_id_back.png" /><span class="message">The resource <code>R.drawable.ocr_id_back</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ocr_id_front.png">../../src/main/res/drawable-hdpi/ocr_id_front.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/ocr_id_front.png" /><span class="message">The resource <code>R.drawable.ocr_id_front</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ocr_id_go.png">../../src/main/res/drawable-hdpi/ocr_id_go.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/ocr_id_go.png" /><span class="message">The resource <code>R.drawable.ocr_id_go</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ocr_id_pen.png">../../src/main/res/drawable-hdpi/ocr_id_pen.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/ocr_id_pen.png" /><span class="message">The resource <code>R.drawable.ocr_id_pen</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable-hdpi/ocr_id_redo.png">../../src/main/res/drawable-hdpi/ocr_id_redo.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable-hdpi/ocr_id_redo.png" /><span class="message">The resource <code>R.drawable.ocr_id_redo</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_activity.xml">../../src/main/res/layout/ocr_idcard_activity.xml</a>:1</span>: <span class="message">The resource <code>R.layout.ocr_idcard_activity</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> <span class="errorspan">&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   2</span>     xmlns:tools="http://schemas.android.com/tools"
+<span class="lineno">   3</span>     android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:2</span>: <span class="message">The resource <code>R.layout.ocr_idcard_information_activity</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     xmlns:tools="http://schemas.android.com/tools"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_star_collect_activity.xml">../../src/main/res/layout/ocr_idcard_star_collect_activity.xml</a>:2</span>: <span class="message">The resource <code>R.layout.ocr_idcard_star_collect_activity</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     xmlns:tools="http://schemas.android.com/tools"
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:5</span>: <span class="message">The resource <code>R.string.info_web_loading</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   2</span> 
+<span class="lineno">   3</span>     &lt;string name="app_name">&#20154;&#33080;&#37319;&#38598;&lt;/string>
+<span class="lineno">   4</span>     &lt;string name="progress_loading">&#21152;&#36733;&#20013;...&lt;/string>
+<span class="lineno">   5</span>     &lt;string <span class="errorspan">name="info_web_loading">&#27491;&#22312;&#21152;&#36733;&#20013;&amp;#8230;&lt;/string></span>
+<span class="lineno">   6</span>     
+<span class="lineno">   7</span>     &lt;!-- &#20154;&#33080;&#37319;&#38598;&#30456;&#20851; -->
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:8</span>: <span class="message">The resource <code>R.string.face_cancel_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   5</span>     &lt;string name="info_web_loading">&#27491;&#22312;&#21152;&#36733;&#20013;&amp;#8230;&lt;/string>
+<span class="lineno">   6</span>     
+<span class="lineno">   7</span>     &lt;!-- &#20154;&#33080;&#37319;&#38598;&#30456;&#20851; -->
+<span class="lineno">   8</span>     &lt;string <span class="errorspan">name="face_cancel_txt">&#21462;&#28040;&lt;/string></span>
+<span class="lineno">   9</span>     &lt;string name="face_imageview_des">&#22270;&#29255;&#35828;&#26126;&lt;/string>
+<span class="lineno">  10</span>     &lt;string name="face_eye_blink_txt">&#30504;&#30504;&#30524;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:9</span>: <span class="message">The resource <code>R.string.face_imageview_des</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   6</span>     
+<span class="lineno">   7</span>     &lt;!-- &#20154;&#33080;&#37319;&#38598;&#30456;&#20851; -->
+<span class="lineno">   8</span>     &lt;string name="face_cancel_txt">&#21462;&#28040;&lt;/string>
+<span class="lineno">   9</span>     &lt;string <span class="errorspan">name="face_imageview_des">&#22270;&#29255;&#35828;&#26126;&lt;/string></span>
+<span class="lineno">  10</span>     &lt;string name="face_eye_blink_txt">&#30504;&#30504;&#30524;&lt;/string>
+<span class="lineno">  11</span>     &lt;string name="face_mouth_open_close_txt">&#24352;&#24352;&#22068;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:10</span>: <span class="message">The resource <code>R.string.face_eye_blink_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   7</span>     &lt;!-- &#20154;&#33080;&#37319;&#38598;&#30456;&#20851; -->
+<span class="lineno">   8</span>     &lt;string name="face_cancel_txt">&#21462;&#28040;&lt;/string>
+<span class="lineno">   9</span>     &lt;string name="face_imageview_des">&#22270;&#29255;&#35828;&#26126;&lt;/string>
+<span class="lineno">  10</span>     &lt;string <span class="errorspan">name="face_eye_blink_txt">&#30504;&#30504;&#30524;&lt;/string></span>
+<span class="lineno">  11</span>     &lt;string name="face_mouth_open_close_txt">&#24352;&#24352;&#22068;&lt;/string>
+<span class="lineno">  12</span>     &lt;string name="face_head_turn_txt">&#36716;&#36716;&#22836;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:11</span>: <span class="message">The resource <code>R.string.face_mouth_open_close_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     &lt;string name="face_cancel_txt">&#21462;&#28040;&lt;/string>
+<span class="lineno">   9</span>     &lt;string name="face_imageview_des">&#22270;&#29255;&#35828;&#26126;&lt;/string>
+<span class="lineno">  10</span>     &lt;string name="face_eye_blink_txt">&#30504;&#30504;&#30524;&lt;/string>
+<span class="lineno">  11</span>     &lt;string <span class="errorspan">name="face_mouth_open_close_txt">&#24352;&#24352;&#22068;&lt;/string></span>
+<span class="lineno">  12</span>     &lt;string name="face_head_turn_txt">&#36716;&#36716;&#22836;&lt;/string>
+<span class="lineno">  13</span>     &lt;string name="face_head_nod_txt">&#28857;&#28857;&#22836;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:12</span>: <span class="message">The resource <code>R.string.face_head_turn_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   9</span>     &lt;string name="face_imageview_des">&#22270;&#29255;&#35828;&#26126;&lt;/string>
+<span class="lineno">  10</span>     &lt;string name="face_eye_blink_txt">&#30504;&#30504;&#30524;&lt;/string>
+<span class="lineno">  11</span>     &lt;string name="face_mouth_open_close_txt">&#24352;&#24352;&#22068;&lt;/string>
+<span class="lineno">  12</span>     &lt;string <span class="errorspan">name="face_head_turn_txt">&#36716;&#36716;&#22836;&lt;/string></span>
+<span class="lineno">  13</span>     &lt;string name="face_head_nod_txt">&#28857;&#28857;&#22836;&lt;/string>
+<span class="lineno">  14</span>     &lt;string name="face_detection_timeout_txt">&#25293;&#29031;&#36229;&#26102;&#65292;&#20877;&#35797;&#19968;&#27425;&#21543;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:13</span>: <span class="message">The resource <code>R.string.face_head_nod_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  10</span>     &lt;string name="face_eye_blink_txt">&#30504;&#30504;&#30524;&lt;/string>
+<span class="lineno">  11</span>     &lt;string name="face_mouth_open_close_txt">&#24352;&#24352;&#22068;&lt;/string>
+<span class="lineno">  12</span>     &lt;string name="face_head_turn_txt">&#36716;&#36716;&#22836;&lt;/string>
+<span class="lineno">  13</span>     &lt;string <span class="errorspan">name="face_head_nod_txt">&#28857;&#28857;&#22836;&lt;/string></span>
+<span class="lineno">  14</span>     &lt;string name="face_detection_timeout_txt">&#25293;&#29031;&#36229;&#26102;&#65292;&#20877;&#35797;&#19968;&#27425;&#21543;&lt;/string>
+<span class="lineno">  15</span>     &lt;string name="face_detection_repair_again_txt">&#24744;&#21487;&#20197;&#23581;&#35797;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:14</span>: <span class="message">The resource <code>R.string.face_detection_timeout_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  11</span>     &lt;string name="face_mouth_open_close_txt">&#24352;&#24352;&#22068;&lt;/string>
+<span class="lineno">  12</span>     &lt;string name="face_head_turn_txt">&#36716;&#36716;&#22836;&lt;/string>
+<span class="lineno">  13</span>     &lt;string name="face_head_nod_txt">&#28857;&#28857;&#22836;&lt;/string>
+<span class="lineno">  14</span>     &lt;string <span class="errorspan">name="face_detection_timeout_txt">&#25293;&#29031;&#36229;&#26102;&#65292;&#20877;&#35797;&#19968;&#27425;&#21543;&lt;/string></span>
+<span class="lineno">  15</span>     &lt;string name="face_detection_repair_again_txt">&#24744;&#21487;&#20197;&#23581;&#35797;&lt;/string>
+<span class="lineno">  16</span>     &lt;string name="face_detection_adjust_light_txt">&#35843;&#25972;&#20809;&#32447;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:15</span>: <span class="message">The resource <code>R.string.face_detection_repair_again_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  12</span>     &lt;string name="face_head_turn_txt">&#36716;&#36716;&#22836;&lt;/string>
+<span class="lineno">  13</span>     &lt;string name="face_head_nod_txt">&#28857;&#28857;&#22836;&lt;/string>
+<span class="lineno">  14</span>     &lt;string name="face_detection_timeout_txt">&#25293;&#29031;&#36229;&#26102;&#65292;&#20877;&#35797;&#19968;&#27425;&#21543;&lt;/string>
+<span class="lineno">  15</span>     &lt;string <span class="errorspan">name="face_detection_repair_again_txt">&#24744;&#21487;&#20197;&#23581;&#35797;&lt;/string></span>
+<span class="lineno">  16</span>     &lt;string name="face_detection_adjust_light_txt">&#35843;&#25972;&#20809;&#32447;&lt;/string>
+<span class="lineno">  17</span>     &lt;string name="face_detection_enfilade_phone_txt">&#27491;&#23545;&#25163;&#26426;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:16</span>: <span class="message">The resource <code>R.string.face_detection_adjust_light_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  13</span>     &lt;string name="face_head_nod_txt">&#28857;&#28857;&#22836;&lt;/string>
+<span class="lineno">  14</span>     &lt;string name="face_detection_timeout_txt">&#25293;&#29031;&#36229;&#26102;&#65292;&#20877;&#35797;&#19968;&#27425;&#21543;&lt;/string>
+<span class="lineno">  15</span>     &lt;string name="face_detection_repair_again_txt">&#24744;&#21487;&#20197;&#23581;&#35797;&lt;/string>
+<span class="lineno">  16</span>     &lt;string <span class="errorspan">name="face_detection_adjust_light_txt">&#35843;&#25972;&#20809;&#32447;&lt;/string></span>
+<span class="lineno">  17</span>     &lt;string name="face_detection_enfilade_phone_txt">&#27491;&#23545;&#25163;&#26426;&lt;/string>
+<span class="lineno">  18</span>     &lt;string name="face_detection_slow_action_txt">&#25918;&#24930;&#21160;&#20316;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:17</span>: <span class="message">The resource <code>R.string.face_detection_enfilade_phone_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  14</span>     &lt;string name="face_detection_timeout_txt">&#25293;&#29031;&#36229;&#26102;&#65292;&#20877;&#35797;&#19968;&#27425;&#21543;&lt;/string>
+<span class="lineno">  15</span>     &lt;string name="face_detection_repair_again_txt">&#24744;&#21487;&#20197;&#23581;&#35797;&lt;/string>
+<span class="lineno">  16</span>     &lt;string name="face_detection_adjust_light_txt">&#35843;&#25972;&#20809;&#32447;&lt;/string>
+<span class="lineno">  17</span>     &lt;string <span class="errorspan">name="face_detection_enfilade_phone_txt">&#27491;&#23545;&#25163;&#26426;&lt;/string></span>
+<span class="lineno">  18</span>     &lt;string name="face_detection_slow_action_txt">&#25918;&#24930;&#21160;&#20316;&lt;/string>
+<span class="lineno">  19</span>     &lt;string name="face_detection_exceed_num_prompt_txt">&#20154;&#33080;&#37319;&#38598;&#22833;&#36133;&#65292;&#26159;&#21542;&#38656;&#35201;&#36873;&#25321;&#20854;&#20182;&#36890;&#36947;&#36827;&#34892;&#35748;&#35777;&#65311;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:18</span>: <span class="message">The resource <code>R.string.face_detection_slow_action_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  15</span>     &lt;string name="face_detection_repair_again_txt">&#24744;&#21487;&#20197;&#23581;&#35797;&lt;/string>
+<span class="lineno">  16</span>     &lt;string name="face_detection_adjust_light_txt">&#35843;&#25972;&#20809;&#32447;&lt;/string>
+<span class="lineno">  17</span>     &lt;string name="face_detection_enfilade_phone_txt">&#27491;&#23545;&#25163;&#26426;&lt;/string>
+<span class="lineno">  18</span>     &lt;string <span class="errorspan">name="face_detection_slow_action_txt">&#25918;&#24930;&#21160;&#20316;&lt;/string></span>
+<span class="lineno">  19</span>     &lt;string name="face_detection_exceed_num_prompt_txt">&#20154;&#33080;&#37319;&#38598;&#22833;&#36133;&#65292;&#26159;&#21542;&#38656;&#35201;&#36873;&#25321;&#20854;&#20182;&#36890;&#36947;&#36827;&#34892;&#35748;&#35777;&#65311;&lt;/string>
+<span class="lineno">  20</span>     &lt;string name="face_detection_commit_exception_prompt_txt">&#20154;&#33080;&#35782;&#21035;&#21457;&#29983;&#24322;&#24120;&#65292;&#36825;&#20010;&#22909;&#20687;&#19981;&#26159;&#20320;&#21734;&#65292;&#35831;&#20877;&#35797;&#19968;&#27425;&#21543;&#12290;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:19</span>: <span class="message">The resource <code>R.string.face_detection_exceed_num_prompt_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  16</span>     &lt;string name="face_detection_adjust_light_txt">&#35843;&#25972;&#20809;&#32447;&lt;/string>
+<span class="lineno">  17</span>     &lt;string name="face_detection_enfilade_phone_txt">&#27491;&#23545;&#25163;&#26426;&lt;/string>
+<span class="lineno">  18</span>     &lt;string name="face_detection_slow_action_txt">&#25918;&#24930;&#21160;&#20316;&lt;/string>
+<span class="lineno">  19</span>     &lt;string <span class="errorspan">name="face_detection_exceed_num_prompt_txt">&#20154;&#33080;&#37319;&#38598;&#22833;&#36133;&#65292;&#26159;&#21542;&#38656;&#35201;&#36873;&#25321;&#20854;&#20182;&#36890;&#36947;&#36827;&#34892;&#35748;&#35777;&#65311;&lt;/string></span>
+<span class="lineno">  20</span>     &lt;string name="face_detection_commit_exception_prompt_txt">&#20154;&#33080;&#35782;&#21035;&#21457;&#29983;&#24322;&#24120;&#65292;&#36825;&#20010;&#22909;&#20687;&#19981;&#26159;&#20320;&#21734;&#65292;&#35831;&#20877;&#35797;&#19968;&#27425;&#21543;&#12290;&lt;/string>
+<span class="lineno">  21</span>     &lt;string name="face_detection_collecting_txt">&#27491;&#22312;&#37319;&#38598;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:20</span>: <span class="message">The resource <code>R.string.face_detection_commit_exception_prompt_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  17</span>     &lt;string name="face_detection_enfilade_phone_txt">&#27491;&#23545;&#25163;&#26426;&lt;/string>
+<span class="lineno">  18</span>     &lt;string name="face_detection_slow_action_txt">&#25918;&#24930;&#21160;&#20316;&lt;/string>
+<span class="lineno">  19</span>     &lt;string name="face_detection_exceed_num_prompt_txt">&#20154;&#33080;&#37319;&#38598;&#22833;&#36133;&#65292;&#26159;&#21542;&#38656;&#35201;&#36873;&#25321;&#20854;&#20182;&#36890;&#36947;&#36827;&#34892;&#35748;&#35777;&#65311;&lt;/string>
+<span class="lineno">  20</span>     &lt;string <span class="errorspan">name="face_detection_commit_exception_prompt_txt">&#20154;&#33080;&#35782;&#21035;&#21457;&#29983;&#24322;&#24120;&#65292;&#36825;&#20010;&#22909;&#20687;&#19981;&#26159;&#20320;&#21734;&#65292;&#35831;&#20877;&#35797;&#19968;&#27425;&#21543;&#12290;&lt;/string></span>
+<span class="lineno">  21</span>     &lt;string name="face_detection_collecting_txt">&#27491;&#22312;&#37319;&#38598;&lt;/string>
+<span class="lineno">  22</span>     &lt;string name="face_detection_other_method_txt">&#20854;&#20182;&#26041;&#24335;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:25</span>: <span class="message">The resource <code>R.string.face_detection_start_prompt_txt1</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  22</span>     &lt;string name="face_detection_other_method_txt">&#20854;&#20182;&#26041;&#24335;&lt;/string>
+<span class="lineno">  23</span>     &lt;string name="face_detection_repair_txt">&#37325;&#26032;&#23581;&#35797;&lt;/string>
+<span class="lineno">  24</span>     &lt;string name="face_detection_success_txt">&#37319;&#38598;&#25104;&#21151;&lt;/string>
+<span class="lineno">  25</span>     &lt;string <span class="errorspan">name="face_detection_start_prompt_txt1">&#37319;&#38598;&#20154;&#33080;&#20449;&#24687;&lt;/string></span>
+<span class="lineno">  26</span>     &lt;string name="face_detection_start_prompt_txt2">&#35831;&#27491;&#23545;&#25163;&#26426;\n&#20445;&#25345;&#20809;&#32447;&#20805;&#36275;&#12289;&#33080;&#37096;&#26080;&#36974;&#25377;&lt;/string>
+<span class="lineno">  27</span>     &lt;string name="face_detection_start_prompt_txt3">&#26412;&#25805;&#20316;&#20165;&#38480;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:26</span>: <span class="message">The resource <code>R.string.face_detection_start_prompt_txt2</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  23</span>     &lt;string name="face_detection_repair_txt">&#37325;&#26032;&#23581;&#35797;&lt;/string>
+<span class="lineno">  24</span>     &lt;string name="face_detection_success_txt">&#37319;&#38598;&#25104;&#21151;&lt;/string>
+<span class="lineno">  25</span>     &lt;string name="face_detection_start_prompt_txt1">&#37319;&#38598;&#20154;&#33080;&#20449;&#24687;&lt;/string>
+<span class="lineno">  26</span>     &lt;string <span class="errorspan">name="face_detection_start_prompt_txt2">&#35831;&#27491;&#23545;&#25163;&#26426;\n&#20445;&#25345;&#20809;&#32447;&#20805;&#36275;&#12289;&#33080;&#37096;&#26080;&#36974;&#25377;&lt;/string></span>
+<span class="lineno">  27</span>     &lt;string name="face_detection_start_prompt_txt3">&#26412;&#25805;&#20316;&#20165;&#38480;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string>
+<span class="lineno">  28</span>     &lt;string name="face_detection_start_txt">&#24320;&#22987;&#37319;&#38598;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:27</span>: <span class="message">The resource <code>R.string.face_detection_start_prompt_txt3</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  24</span>     &lt;string name="face_detection_success_txt">&#37319;&#38598;&#25104;&#21151;&lt;/string>
+<span class="lineno">  25</span>     &lt;string name="face_detection_start_prompt_txt1">&#37319;&#38598;&#20154;&#33080;&#20449;&#24687;&lt;/string>
+<span class="lineno">  26</span>     &lt;string name="face_detection_start_prompt_txt2">&#35831;&#27491;&#23545;&#25163;&#26426;\n&#20445;&#25345;&#20809;&#32447;&#20805;&#36275;&#12289;&#33080;&#37096;&#26080;&#36974;&#25377;&lt;/string>
+<span class="lineno">  27</span>     &lt;string <span class="errorspan">name="face_detection_start_prompt_txt3">&#26412;&#25805;&#20316;&#20165;&#38480;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string></span>
+<span class="lineno">  28</span>     &lt;string name="face_detection_start_txt">&#24320;&#22987;&#37319;&#38598;&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="face_detection_guide_activity_title_txt">&#36523;&#20221;&#20449;&#24687;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:28</span>: <span class="message">The resource <code>R.string.face_detection_start_txt</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  25</span>     &lt;string name="face_detection_start_prompt_txt1">&#37319;&#38598;&#20154;&#33080;&#20449;&#24687;&lt;/string>
+<span class="lineno">  26</span>     &lt;string name="face_detection_start_prompt_txt2">&#35831;&#27491;&#23545;&#25163;&#26426;\n&#20445;&#25345;&#20809;&#32447;&#20805;&#36275;&#12289;&#33080;&#37096;&#26080;&#36974;&#25377;&lt;/string>
+<span class="lineno">  27</span>     &lt;string name="face_detection_start_prompt_txt3">&#26412;&#25805;&#20316;&#20165;&#38480;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string>
+<span class="lineno">  28</span>     &lt;string <span class="errorspan">name="face_detection_start_txt">&#24320;&#22987;&#37319;&#38598;&lt;/string></span>
+<span class="lineno">  29</span>     &lt;string name="face_detection_guide_activity_title_txt">&#36523;&#20221;&#20449;&#24687;&lt;/string>
+<span class="lineno">  30</span>     &lt;string name="ocr_title">&#36523;&#20221;&#20449;&#24687;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:30</span>: <span class="message">The resource <code>R.string.ocr_title</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  27</span>     &lt;string name="face_detection_start_prompt_txt3">&#26412;&#25805;&#20316;&#20165;&#38480;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string>
+<span class="lineno">  28</span>     &lt;string name="face_detection_start_txt">&#24320;&#22987;&#37319;&#38598;&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="face_detection_guide_activity_title_txt">&#36523;&#20221;&#20449;&#24687;&lt;/string>
+<span class="lineno">  30</span>     &lt;string <span class="errorspan">name="ocr_title">&#36523;&#20221;&#20449;&#24687;&lt;/string></span>
+<span class="lineno">  31</span>     &lt;!-- ocr_star_collect -->
+<span class="lineno">  32</span>     &lt;string name="ocr_idcard_star_collect">&#24320;&#22987;&#37319;&#38598;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:32</span>: <span class="message">The resource <code>R.string.ocr_idcard_star_collect</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  29</span>     &lt;string name="face_detection_guide_activity_title_txt">&#36523;&#20221;&#20449;&#24687;&lt;/string>
+<span class="lineno">  30</span>     &lt;string name="ocr_title">&#36523;&#20221;&#20449;&#24687;&lt;/string>
+<span class="lineno">  31</span>     &lt;!-- ocr_star_collect -->
+<span class="lineno">  32</span>     &lt;string <span class="errorspan">name="ocr_idcard_star_collect">&#24320;&#22987;&#37319;&#38598;&lt;/string></span>
+<span class="lineno">  33</span>     &lt;string name="ocr_idcard_star_collect_tip1">&#37319;&#38598;&#36523;&#20221;&#35777;&#20449;&#24687;&lt;/string>
+<span class="lineno">  34</span>     &lt;string name="ocr_idcard_star_collect_tip2">&#35831;&#23558;&#25163;&#26426;&#27491;&#23545;&#36523;&#20221;&#35777;&#65292;&#24182;&#20943;&#23569;&#21453;&#20809;&#30340;&#24433;&#21709;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:33</span>: <span class="message">The resource <code>R.string.ocr_idcard_star_collect_tip1</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  30</span>     &lt;string name="ocr_title">&#36523;&#20221;&#20449;&#24687;&lt;/string>
+<span class="lineno">  31</span>     &lt;!-- ocr_star_collect -->
+<span class="lineno">  32</span>     &lt;string name="ocr_idcard_star_collect">&#24320;&#22987;&#37319;&#38598;&lt;/string>
+<span class="lineno">  33</span>     &lt;string <span class="errorspan">name="ocr_idcard_star_collect_tip1">&#37319;&#38598;&#36523;&#20221;&#35777;&#20449;&#24687;&lt;/string></span>
+<span class="lineno">  34</span>     &lt;string name="ocr_idcard_star_collect_tip2">&#35831;&#23558;&#25163;&#26426;&#27491;&#23545;&#36523;&#20221;&#35777;&#65292;&#24182;&#20943;&#23569;&#21453;&#20809;&#30340;&#24433;&#21709;&lt;/string>
+<span class="lineno">  35</span>     &lt;string name="ocr_idcard_star_collect_tip3">&#26412;&#25805;&#20316;&#20165;&#29992;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:34</span>: <span class="message">The resource <code>R.string.ocr_idcard_star_collect_tip2</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  31</span>     &lt;!-- ocr_star_collect -->
+<span class="lineno">  32</span>     &lt;string name="ocr_idcard_star_collect">&#24320;&#22987;&#37319;&#38598;&lt;/string>
+<span class="lineno">  33</span>     &lt;string name="ocr_idcard_star_collect_tip1">&#37319;&#38598;&#36523;&#20221;&#35777;&#20449;&#24687;&lt;/string>
+<span class="lineno">  34</span>     &lt;string <span class="errorspan">name="ocr_idcard_star_collect_tip2">&#35831;&#23558;&#25163;&#26426;&#27491;&#23545;&#36523;&#20221;&#35777;&#65292;&#24182;&#20943;&#23569;&#21453;&#20809;&#30340;&#24433;&#21709;&lt;/string></span>
+<span class="lineno">  35</span>     &lt;string name="ocr_idcard_star_collect_tip3">&#26412;&#25805;&#20316;&#20165;&#29992;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string>
+<span class="lineno">  36</span>     &lt;!-- ocr_id_card -->
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:35</span>: <span class="message">The resource <code>R.string.ocr_idcard_star_collect_tip3</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  32</span>     &lt;string name="ocr_idcard_star_collect">&#24320;&#22987;&#37319;&#38598;&lt;/string>
+<span class="lineno">  33</span>     &lt;string name="ocr_idcard_star_collect_tip1">&#37319;&#38598;&#36523;&#20221;&#35777;&#20449;&#24687;&lt;/string>
+<span class="lineno">  34</span>     &lt;string name="ocr_idcard_star_collect_tip2">&#35831;&#23558;&#25163;&#26426;&#27491;&#23545;&#36523;&#20221;&#35777;&#65292;&#24182;&#20943;&#23569;&#21453;&#20809;&#30340;&#24433;&#21709;&lt;/string>
+<span class="lineno">  35</span>     &lt;string <span class="errorspan">name="ocr_idcard_star_collect_tip3">&#26412;&#25805;&#20316;&#20165;&#29992;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string></span>
+<span class="lineno">  36</span>     &lt;!-- ocr_id_card -->
+<span class="lineno">  37</span>     &lt;string name="ocr_idcard_front_title">&#27491;&#22312;&#37319;&#38598;&#36523;&#20221;&#35777;&#20154;&#20687;&#38754;&#65292;&#35831;&#23613;&#37327;&#23545;&#40784;&#36793;&#32536;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:37</span>: <span class="message">The resource <code>R.string.ocr_idcard_front_title</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  34</span>     &lt;string name="ocr_idcard_star_collect_tip2">&#35831;&#23558;&#25163;&#26426;&#27491;&#23545;&#36523;&#20221;&#35777;&#65292;&#24182;&#20943;&#23569;&#21453;&#20809;&#30340;&#24433;&#21709;&lt;/string>
+<span class="lineno">  35</span>     &lt;string name="ocr_idcard_star_collect_tip3">&#26412;&#25805;&#20316;&#20165;&#29992;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string>
+<span class="lineno">  36</span>     &lt;!-- ocr_id_card -->
+<span class="lineno">  37</span>     &lt;string <span class="errorspan">name="ocr_idcard_front_title">&#27491;&#22312;&#37319;&#38598;&#36523;&#20221;&#35777;&#20154;&#20687;&#38754;&#65292;&#35831;&#23613;&#37327;&#23545;&#40784;&#36793;&#32536;&lt;/string></span>
+<span class="lineno">  38</span>     &lt;string name="ocr_idcard_back_title">&#27491;&#22312;&#37319;&#38598;&#36523;&#20221;&#35777;&#22269;&#24509;&#38754;&#65292;&#35831;&#23613;&#37327;&#23545;&#40784;&#36793;&#32536;&lt;/string>
+<span class="lineno">  39</span>     &lt;string name="ocr_idcard_message">&#37319;&#38598;&#25104;&#21151;&#65292;&#22914;&#19981;&#28165;&#26224;&#65292;&#21487;&#23581;&#35797;&#8220;&#37325;&#25293;&#8221;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:38</span>: <span class="message">The resource <code>R.string.ocr_idcard_back_title</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  35</span>     &lt;string name="ocr_idcard_star_collect_tip3">&#26412;&#25805;&#20316;&#20165;&#29992;&#20110;&#36523;&#20221;&#39564;&#35777;&#65292;&#35831;&#30830;&#20445;&#26159;&#26412;&#20154;&#25805;&#20316;&lt;/string>
+<span class="lineno">  36</span>     &lt;!-- ocr_id_card -->
+<span class="lineno">  37</span>     &lt;string name="ocr_idcard_front_title">&#27491;&#22312;&#37319;&#38598;&#36523;&#20221;&#35777;&#20154;&#20687;&#38754;&#65292;&#35831;&#23613;&#37327;&#23545;&#40784;&#36793;&#32536;&lt;/string>
+<span class="lineno">  38</span>     &lt;string <span class="errorspan">name="ocr_idcard_back_title">&#27491;&#22312;&#37319;&#38598;&#36523;&#20221;&#35777;&#22269;&#24509;&#38754;&#65292;&#35831;&#23613;&#37327;&#23545;&#40784;&#36793;&#32536;&lt;/string></span>
+<span class="lineno">  39</span>     &lt;string name="ocr_idcard_message">&#37319;&#38598;&#25104;&#21151;&#65292;&#22914;&#19981;&#28165;&#26224;&#65292;&#21487;&#23581;&#35797;&#8220;&#37325;&#25293;&#8221;&lt;/string>
+<span class="lineno">  40</span>     &lt;string name="ocr_idcard_dialog_message">&#36523;&#20221;&#35777;&#35782;&#21035;&#21457;&#29983;&#24322;&#24120;&#65292;&#35831;&#20877;&#35797;&#19968;&#27425;&#21543;&#12290;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:39</span>: <span class="message">The resource <code>R.string.ocr_idcard_message</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  36</span>     &lt;!-- ocr_id_card -->
+<span class="lineno">  37</span>     &lt;string name="ocr_idcard_front_title">&#27491;&#22312;&#37319;&#38598;&#36523;&#20221;&#35777;&#20154;&#20687;&#38754;&#65292;&#35831;&#23613;&#37327;&#23545;&#40784;&#36793;&#32536;&lt;/string>
+<span class="lineno">  38</span>     &lt;string name="ocr_idcard_back_title">&#27491;&#22312;&#37319;&#38598;&#36523;&#20221;&#35777;&#22269;&#24509;&#38754;&#65292;&#35831;&#23613;&#37327;&#23545;&#40784;&#36793;&#32536;&lt;/string>
+<span class="lineno">  39</span>     &lt;string <span class="errorspan">name="ocr_idcard_message">&#37319;&#38598;&#25104;&#21151;&#65292;&#22914;&#19981;&#28165;&#26224;&#65292;&#21487;&#23581;&#35797;&#8220;&#37325;&#25293;&#8221;&lt;/string></span>
+<span class="lineno">  40</span>     &lt;string name="ocr_idcard_dialog_message">&#36523;&#20221;&#35777;&#35782;&#21035;&#21457;&#29983;&#24322;&#24120;&#65292;&#35831;&#20877;&#35797;&#19968;&#27425;&#21543;&#12290;&lt;/string>
+<span class="lineno">  41</span>     &lt;!-- ocr_information -->
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:43</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_front</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  40</span>     &lt;string name="ocr_idcard_dialog_message">&#36523;&#20221;&#35777;&#35782;&#21035;&#21457;&#29983;&#24322;&#24120;&#65292;&#35831;&#20877;&#35797;&#19968;&#27425;&#21543;&#12290;&lt;/string>
+<span class="lineno">  41</span>     &lt;!-- ocr_information -->
+<span class="lineno">  42</span>     &lt;string name="ocr_idcard_commit_success_txt">&#25552;&#20132;&#25104;&#21151;&lt;/string>
+<span class="lineno">  43</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_front">&#20154;&#20687;&#38754;&lt;/string></span>
+<span class="lineno">  44</span>     &lt;string name="ocr_idcard_information_back">&#22269;&#24509;&#38754;&lt;/string>
+<span class="lineno">  45</span>     &lt;string name="ocr_idcard_information_message">&#35831;&#21153;&#24517;&#26680;&#23454;&#36523;&#20221;&#35777;&#26080;&#35823;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:44</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_back</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  41</span>     &lt;!-- ocr_information -->
+<span class="lineno">  42</span>     &lt;string name="ocr_idcard_commit_success_txt">&#25552;&#20132;&#25104;&#21151;&lt;/string>
+<span class="lineno">  43</span>     &lt;string name="ocr_idcard_information_front">&#20154;&#20687;&#38754;&lt;/string>
+<span class="lineno">  44</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_back">&#22269;&#24509;&#38754;&lt;/string></span>
+<span class="lineno">  45</span>     &lt;string name="ocr_idcard_information_message">&#35831;&#21153;&#24517;&#26680;&#23454;&#36523;&#20221;&#35777;&#26080;&#35823;&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="ocr_idcard_information_commit">&#30830;&#35748;&#24182;&#25552;&#20132;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:45</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_message</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  42</span>     &lt;string name="ocr_idcard_commit_success_txt">&#25552;&#20132;&#25104;&#21151;&lt;/string>
+<span class="lineno">  43</span>     &lt;string name="ocr_idcard_information_front">&#20154;&#20687;&#38754;&lt;/string>
+<span class="lineno">  44</span>     &lt;string name="ocr_idcard_information_back">&#22269;&#24509;&#38754;&lt;/string>
+<span class="lineno">  45</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_message">&#35831;&#21153;&#24517;&#26680;&#23454;&#36523;&#20221;&#35777;&#26080;&#35823;&lt;/string></span>
+<span class="lineno">  46</span>     &lt;string name="ocr_idcard_information_commit">&#30830;&#35748;&#24182;&#25552;&#20132;&lt;/string>
+<span class="lineno">  47</span>     &lt;string name="ocr_idcard_information_again_collect">&#37325;&#26032;&#37319;&#38598;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:46</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_commit</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  43</span>     &lt;string name="ocr_idcard_information_front">&#20154;&#20687;&#38754;&lt;/string>
+<span class="lineno">  44</span>     &lt;string name="ocr_idcard_information_back">&#22269;&#24509;&#38754;&lt;/string>
+<span class="lineno">  45</span>     &lt;string name="ocr_idcard_information_message">&#35831;&#21153;&#24517;&#26680;&#23454;&#36523;&#20221;&#35777;&#26080;&#35823;&lt;/string>
+<span class="lineno">  46</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_commit">&#30830;&#35748;&#24182;&#25552;&#20132;&lt;/string></span>
+<span class="lineno">  47</span>     &lt;string name="ocr_idcard_information_again_collect">&#37325;&#26032;&#37319;&#38598;&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="ocr_idcard_information_name">&#22995;&#21517;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:47</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_again_collect</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  44</span>     &lt;string name="ocr_idcard_information_back">&#22269;&#24509;&#38754;&lt;/string>
+<span class="lineno">  45</span>     &lt;string name="ocr_idcard_information_message">&#35831;&#21153;&#24517;&#26680;&#23454;&#36523;&#20221;&#35777;&#26080;&#35823;&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="ocr_idcard_information_commit">&#30830;&#35748;&#24182;&#25552;&#20132;&lt;/string>
+<span class="lineno">  47</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_again_collect">&#37325;&#26032;&#37319;&#38598;&lt;/string></span>
+<span class="lineno">  48</span>     &lt;string name="ocr_idcard_information_name">&#22995;&#21517;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="ocr_idcard_information_sex">&#24615;&#21035;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:48</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_name</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  45</span>     &lt;string name="ocr_idcard_information_message">&#35831;&#21153;&#24517;&#26680;&#23454;&#36523;&#20221;&#35777;&#26080;&#35823;&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="ocr_idcard_information_commit">&#30830;&#35748;&#24182;&#25552;&#20132;&lt;/string>
+<span class="lineno">  47</span>     &lt;string name="ocr_idcard_information_again_collect">&#37325;&#26032;&#37319;&#38598;&lt;/string>
+<span class="lineno">  48</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_name">&#22995;&#21517;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string></span>
+<span class="lineno">  49</span>     &lt;string name="ocr_idcard_information_sex">&#24615;&#21035;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+<span class="lineno">  50</span>     &lt;string name="ocr_idcard_information_idnumber">&#36523;&#20221;&#35777;&#21495;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:49</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_sex</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  46</span>     &lt;string name="ocr_idcard_information_commit">&#30830;&#35748;&#24182;&#25552;&#20132;&lt;/string>
+<span class="lineno">  47</span>     &lt;string name="ocr_idcard_information_again_collect">&#37325;&#26032;&#37319;&#38598;&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="ocr_idcard_information_name">&#22995;&#21517;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+<span class="lineno">  49</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_sex">&#24615;&#21035;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string></span>
+<span class="lineno">  50</span>     &lt;string name="ocr_idcard_information_idnumber">&#36523;&#20221;&#35777;&#21495;&lt;/string>
+<span class="lineno">  51</span>     &lt;string name="ocr_idcard_information_validity">&#26377;&#25928;&#26399;&#33267;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:50</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_idnumber</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  47</span>     &lt;string name="ocr_idcard_information_again_collect">&#37325;&#26032;&#37319;&#38598;&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="ocr_idcard_information_name">&#22995;&#21517;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="ocr_idcard_information_sex">&#24615;&#21035;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+<span class="lineno">  50</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_idnumber">&#36523;&#20221;&#35777;&#21495;&lt;/string></span>
+<span class="lineno">  51</span>     &lt;string name="ocr_idcard_information_validity">&#26377;&#25928;&#26399;&#33267;&lt;/string>
+<span class="lineno">  52</span>     &lt;string name="ocr_idcard_dialog_confirm">&#30830;&#23450;&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:51</span>: <span class="message">The resource <code>R.string.ocr_idcard_information_validity</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  48</span>     &lt;string name="ocr_idcard_information_name">&#22995;&#21517;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="ocr_idcard_information_sex">&#24615;&#21035;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/string>
+<span class="lineno">  50</span>     &lt;string name="ocr_idcard_information_idnumber">&#36523;&#20221;&#35777;&#21495;&lt;/string>
+<span class="lineno">  51</span>     &lt;string <span class="errorspan">name="ocr_idcard_information_validity">&#26377;&#25928;&#26399;&#33267;&lt;/string></span>
+<span class="lineno">  52</span>     &lt;string name="ocr_idcard_dialog_confirm">&#30830;&#23450;&lt;/string>
+<span class="lineno">  53</span>     &lt;string name="ocr_idcard_dialog_cancel">&#21462;&#28040;&lt;/string>
+</pre>
+</div>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused resources.</div>
+<div class="explanation">
+Unused resources make applications larger and slow down builds.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UselessParent"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UselessParent: Useless parent layout</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/face_detection_step.xml">../../src/main/res/layout/face_detection_step.xml</a>:7</span>: <span class="message">This <code>LinearLayout</code> layout or its <code>RelativeLayout</code> parent is possibly useless</span><br /><pre class="errorlines">
+<span class="lineno">   4</span>     android:layout_width="match_parent"
+<span class="lineno">   5</span>     android:layout_height="wrap_content" >
+<span class="lineno">   6</span> 
+<span class="lineno">   7</span>     <span class="errorspan">&lt;LinearLayout</span>
+<span class="lineno">   8</span>         android:id="@+id/detection_step_linear"
+<span class="lineno">   9</span>         android:layout_width="wrap_content"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 2 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Useless parent layout.</div>
+<div class="explanation">
+A layout with children that has no siblings, is not a scrollview or a root layout, and does not have a background, can be removed and have its children moved directly into the parent for a flatter and more efficient layout hierarchy.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UselessParent" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Typography"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Typography</a><div class="categorySeparator"></div>
+</div>
+<a name="TypographyEllipsis"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">TypographyEllipsis: Ellipsis string can be replaced with ellipsis character</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:4</span>: <span class="message">Replace "..." with ellipsis character (&#8230;, &amp;#8230;) ?</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;resources>
+<span class="lineno">   2</span> 
+<span class="lineno">   3</span>     &lt;string name="app_name">&#20154;&#33080;&#37319;&#38598;&lt;/string>
+<span class="lineno">   4</span>     &lt;string name="progress_loading"><span class="errorspan">&#21152;&#36733;&#20013;...&lt;/string></span>
+<span class="lineno">   5</span>     &lt;string name="info_web_loading">&#27491;&#22312;&#21152;&#36733;&#20013;&amp;#8230;&lt;/string>
+<span class="lineno">   6</span>     
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Ellipsis string can be replaced with ellipsis character.</div>
+<div class="explanation">
+You can replace the string "..." with a dedicated ellipsis character, ellipsis character (&#8230;, &amp;#8230;). This can help make the text more readable.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Ellipsis">http://en.wikipedia.org/wiki/Ellipsis</a>
+</div><br/>To suppress this error, use the issue id "TypographyEllipsis" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Icons"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Icons</a><div class="categorySeparator"></div>
+</div>
+<a name="IconDipSize"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDipSize: Icon density-independent size validation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/drawable-mdpi/face_detection_head.png">../../src/main/res/drawable-mdpi/face_detection_head.png</a></span>: <span class="message">The image <code>face_detection_head.png</code> varies significantly in its density-independent (dip) size across the various density versions: drawable-hdpi\face_detection_head.png: 720x1280 dp (1080x1920 px), drawable-ldpi\face_detection_head.png: 320x427 dp (240x320 px), drawable-mdpi\face_detection_head.png: 240x320 dp (240x320 px)</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 2 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-ldpi/face_detection_head.png">../../src/main/res/drawable-ldpi/face_detection_head.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-hdpi/face_detection_head.png">../../src/main/res/drawable-hdpi/face_detection_head.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../src/main/res/drawable-hdpi/face_detection_head.png"><img border="0" align="top" src="../../src/main/res/drawable-hdpi/face_detection_head.png" /></a>
+</td><td><a href="../../src/main/res/drawable-mdpi/face_detection_head.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/face_detection_head.png" /></a>
+</td><td><a href="../../src/main/res/drawable-ldpi/face_detection_head.png"><img border="0" align="top" src="../../src/main/res/drawable-ldpi/face_detection_head.png" /></a>
+</td></tr><tr><th>hdpi</th><th>mdpi</th><th>ldpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable-mdpi/face_detection_head_grey.png">../../src/main/res/drawable-mdpi/face_detection_head_grey.png</a></span>: <span class="message">The image <code>face_detection_head_grey.png</code> varies significantly in its density-independent (dip) size across the various density versions: drawable-hdpi\face_detection_head_grey.png: 720x1280 dp (1080x1920 px), drawable-ldpi\face_detection_head_grey.png: 320x427 dp (240x320 px), drawable-mdpi\face_detection_head_grey.png: 240x320 dp (240x320 px)</span><br />
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 2 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-ldpi/face_detection_head_grey.png">../../src/main/res/drawable-ldpi/face_detection_head_grey.png</a></span>
+<li> <span class="location"><a href="../../src/main/res/drawable-hdpi/face_detection_head_grey.png">../../src/main/res/drawable-hdpi/face_detection_head_grey.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../src/main/res/drawable-hdpi/face_detection_head_grey.png"><img border="0" align="top" src="../../src/main/res/drawable-hdpi/face_detection_head_grey.png" /></a>
+</td><td><a href="../../src/main/res/drawable-mdpi/face_detection_head_grey.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/face_detection_head_grey.png" /></a>
+</td><td><a href="../../src/main/res/drawable-ldpi/face_detection_head_grey.png"><img border="0" align="top" src="../../src/main/res/drawable-ldpi/face_detection_head_grey.png" /></a>
+</td></tr><tr><th>hdpi</th><th>mdpi</th><th>ldpi</th></tr>
+</table>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon density-independent size validation.</div>
+<div class="explanation">
+Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (<code>dip</code>) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "IconDipSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconDuplicatesConfig"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDuplicatesConfig: Identical bitmaps across various configurations</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/drawable-mdpi/face_detection_head.png">../../src/main/res/drawable-mdpi/face_detection_head.png</a></span>: <span class="message">The <code>face_detection_head.png</code> icon has identical contents in the following configuration folders: drawable-ldpi, drawable-mdpi</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 1 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-ldpi/face_detection_head.png">../../src/main/res/drawable-ldpi/face_detection_head.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../src/main/res/drawable-mdpi/face_detection_head.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/face_detection_head.png" /></a>
+</td><td><a href="../../src/main/res/drawable-ldpi/face_detection_head.png"><img border="0" align="top" src="../../src/main/res/drawable-ldpi/face_detection_head.png" /></a>
+</td></tr><tr><th>mdpi</th><th>ldpi</th></tr>
+</table>
+<span class="location"><a href="../../src/main/res/drawable-mdpi/face_detection_head_grey.png">../../src/main/res/drawable-mdpi/face_detection_head_grey.png</a></span>: <span class="message">The <code>face_detection_head_grey.png</code> icon has identical contents in the following configuration folders: drawable-ldpi, drawable-mdpi</span><br />
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 1 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/drawable-ldpi/face_detection_head_grey.png">../../src/main/res/drawable-ldpi/face_detection_head_grey.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../src/main/res/drawable-mdpi/face_detection_head_grey.png"><img border="0" align="top" src="../../src/main/res/drawable-mdpi/face_detection_head_grey.png" /></a>
+</td><td><a href="../../src/main/res/drawable-ldpi/face_detection_head_grey.png"><img border="0" align="top" src="../../src/main/res/drawable-ldpi/face_detection_head_grey.png" /></a>
+</td></tr><tr><th>mdpi</th><th>ldpi</th></tr>
+</table>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Identical bitmaps across various configurations.</div>
+<div class="explanation">
+If an icon is provided under different configuration parameters such as <code>drawable-hdpi</code> or <code>-v11</code>, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "IconDuplicatesConfig" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconDensities"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDensities: Icon densities validation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/drawable-mdpi">../../src/main/res/drawable-mdpi</a></span>: <span class="message">Missing the following drawables in <code>drawable-mdpi</code>: btn_dialog_normal.9.png, btn_dialog_right_normal.9.png, face_ab_goback_apptheme.9.png, face_ab_solid_apptheme.9.png, face_adjust_light_icon.png... (35 more)</span><br />
+</div>
+<div class="metadata">Priority: 4 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon densities validation.</div>
+<div class="explanation">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.<br/>
+<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconDensities" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconMissingDensityFolder"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconMissingDensityFolder: Missing density folder</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res">../../src/main/res</a></span>: <span class="message">Missing density variation folders in <code>src\main\res</code>: drawable-xhdpi, drawable-xxhdpi, drawable-xxxhdpi</span><br />
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing density folder.</div>
+<div class="explanation">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as <code>drawable-hdpi</code>.<br/>
+<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconMissingDensityFolder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability"></a>
+<div class="category"><a href="#" title="Return to top">Usability</a><div class="categorySeparator"></div>
+</div>
+<a name="GoogleAppIndexingWarning"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GoogleAppIndexingWarning: Missing support for Google App Indexing</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:11</span>: <span class="message">App is not indexable by Google Search; consider adding at least one Activity with an ACTION-VIEW intent-filler. See issue explanation for more details.</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     &lt;uses-permission android:name="android.permission.INTERNET" />
+<span class="lineno">   9</span>     &lt;uses-permission android:name="android.permission.RECORD_AUDIO" />
+<span class="lineno">  10</span> 
+<span class="lineno">  11</span>     <span class="errorspan">&lt;application</span>
+<span class="lineno">  12</span>         android:allowBackup="true"
+<span class="lineno">  13</span>        android:icon="@mipmap/ic_launcher"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 5 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing support for Google App Indexing.</div>
+<div class="explanation">
+Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/AppIndexing/AndroidStudio">https://g.co/AppIndexing/AndroidStudio</a>
+</div><br/>To suppress this error, use the issue id "GoogleAppIndexingWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="TextFields"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">TextFields: Missing <code>inputType</code> or <code>hint</code></a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:241</span>: <span class="message">The view name (<code>@+id/ocr_information_et_valid_date</code>) suggests this is a date, but it does not include '<code>date</code>' or '<code>datetime</code>' in the <code>inputType</code></span><br /><pre class="errorlines">
+<span class="lineno"> 238</span>                     android:layout_weight="3"
+<span class="lineno"> 239</span>                     android:background="@null"
+<span class="lineno"> 240</span>                     android:gravity="center_vertical"
+<span class="lineno"> 241</span>                     <span class="errorspan">android:inputType="number"</span>
+<span class="lineno"> 242</span>                     android:paddingLeft="10dp"
+<span class="lineno"> 243</span>                     android:textColor="@color/text_light_grey1"
+</pre>
+<ul><span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:235</span>: <span class="message">id defined here</span><br /><pre class="errorlines">
+<span class="lineno"> 232</span>                     android:textSize="16sp" />
+<span class="lineno"> 233</span> 
+<span class="lineno"> 234</span>                 &lt;EditText
+<span class="lineno"> 235</span>                     <span class="errorspan">android:id="@+id/ocr_information_et_valid_date"</span>
+<span class="lineno"> 236</span>                     android:layout_width="match_parent"
+<span class="lineno"> 237</span>                     android:layout_height="match_parent"
+</pre></ul></div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 5 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing <code>inputType</code> or <code>hint</code></div>
+<div class="explanation">
+Providing an <code>inputType</code> attribute on a text field improves usability because depending on the data to be input, optimized keyboards can be shown to the user (such as just digits and parentheses for a phone number). Similarly,a hint attribute displays a hint to the user for what is expected in the text field.<br/>
+<br/>
+The lint detector also looks at the <code>id</code> of the view, and if the id offers a hint of the purpose of the field (for example, the <code>id</code> contains the phrase <code>phone</code> or <code>email</code>), then lint will also ensure that the <code>inputType</code> contains the corresponding type attributes.<br/>
+<br/>
+If you really want to keep the text field generic, you can suppress this warning by setting <code>inputType="text"</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "TextFields" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Accessibility"></a>
+<div class="category"><a href="#" title="Return to top">Accessibility</a><div class="categorySeparator"></div>
+</div>
+<a name="ContentDescription"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ContentDescription: Image without <code>contentDescription</code></a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:13</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  10</span>         android:layout_width="match_parent"
+<span class="lineno">  11</span>         android:layout_height="match_parent" />
+<span class="lineno">  12</span> 
+<span class="lineno">  13</span>     <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  14</span>         android:id="@+id/face_detection_result_img"
+<span class="lineno">  15</span>         android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:78</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  75</span>         android:layout_height="wrap_content"
+<span class="lineno">  76</span>         android:layout_marginTop="15dp" >
+<span class="lineno">  77</span> 
+<span class="lineno">  78</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  79</span>             android:id="@+id/face_detection_close"
+<span class="lineno">  80</span>             android:layout_width="30dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:112</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno"> 109</span>                 layout="@layout/face_step_three_layout" />
+<span class="lineno"> 110</span>         &lt;/LinearLayout>
+<span class="lineno"> 111</span> 
+<span class="lineno"> 112</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno"> 113</span>             android:id="@+id/face_detection_sound_control"
+<span class="lineno"> 114</span>             android:layout_width="30dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_step_one_layout.xml">../../src/main/res/layout/face_step_one_layout.xml</a>:6</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content" >
+<span class="lineno">   5</span> 
+<span class="lineno">   6</span>     <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">   7</span>         android:id="@+id/face_step_one_img"
+<span class="lineno">   8</span>         android:src="@drawable/face_step_one_normal"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_step_three_layout.xml">../../src/main/res/layout/face_step_three_layout.xml</a>:6</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content" >
+<span class="lineno">   5</span> 
+<span class="lineno">   6</span>     <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">   7</span>         android:id="@+id/face_step_three_img"
+<span class="lineno">   8</span>         android:layout_width="30dp"
+</pre>
+<button id="ContentDescriptionDivLink" onclick="reveal('ContentDescriptionDiv');" />+ 5 More Occurrences...</button>
+<div id="ContentDescriptionDiv" style="display: none">
+<span class="location"><a href="../../src/main/res/layout/face_step_two_layout.xml">../../src/main/res/layout/face_step_two_layout.xml</a>:6</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     android:layout_width="wrap_content"
+<span class="lineno">   4</span>     android:layout_height="wrap_content" >
+<span class="lineno">   5</span> 
+<span class="lineno">   6</span>     <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">   7</span>         android:id="@+id/face_step_two_img"
+<span class="lineno">   8</span>         android:src="@drawable/face_step_two_normal"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_timeout_custemdialog.xml">../../src/main/res/layout/face_timeout_custemdialog.xml</a>:38</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  35</span>             android:gravity="center"
+<span class="lineno">  36</span>             android:orientation="vertical" >
+<span class="lineno">  37</span> 
+<span class="lineno">  38</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  39</span>                 android:layout_width="35dp"
+<span class="lineno">  40</span>                 android:layout_height="35dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_timeout_custemdialog.xml">../../src/main/res/layout/face_timeout_custemdialog.xml</a>:61</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  58</span>             android:gravity="center"
+<span class="lineno">  59</span>             android:orientation="vertical" >
+<span class="lineno">  60</span> 
+<span class="lineno">  61</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  62</span>                 android:layout_width="35dp"
+<span class="lineno">  63</span>                 android:layout_height="35dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_timeout_custemdialog.xml">../../src/main/res/layout/face_timeout_custemdialog.xml</a>:84</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  81</span>             android:gravity="center"
+<span class="lineno">  82</span>             android:orientation="vertical" >
+<span class="lineno">  83</span> 
+<span class="lineno">  84</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  85</span>                 android:layout_width="35dp"
+<span class="lineno">  86</span>                 android:layout_height="35dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_toast.xml">../../src/main/res/layout/face_toast.xml</a>:21</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  18</span>         android:paddingRight="10dp"
+<span class="lineno">  19</span>         android:paddingTop="5dp" >
+<span class="lineno">  20</span> 
+<span class="lineno">  21</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  22</span>             android:layout_width="40dp"
+<span class="lineno">  23</span>             android:layout_height="40dp"
+</pre>
+</div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 3 / 10<br/>
+Category: Accessibility</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Image without <code>contentDescription</code></div>
+<div class="explanation">
+Non-textual widgets like ImageViews and ImageButtons should use the <code>contentDescription</code> attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.<br/>
+<br/>
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore="ContentDescription" attribute.<br/>
+<br/>
+Note that for text fields, you should not set both the <code>hint</code> and the <code>contentDescription</code> attributes since the hint will never be shown. Just set the <code>hint</code>. See <a href="http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases">http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases</a>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ContentDescription" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Internationalization"></a>
+<div class="category"><a href="#" title="Return to top">Internationalization</a><div class="categorySeparator"></div>
+</div>
+<a name="HardcodedText"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">HardcodedText: Hardcoded text</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/custom_alert_dialog.xml">../../src/main/res/layout/custom_alert_dialog.xml</a>:67</span>: <span class="message">[I18N] Hardcoded string "&#21462;&#28040;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  64</span>             android:background="@drawable/btn_dialog_right_normal"
+<span class="lineno">  65</span>             android:gravity="center"
+<span class="lineno">  66</span>             android:singleLine="true"
+<span class="lineno">  67</span>             <span class="errorspan">android:text="&#21462;&#28040;"</span>
+<span class="lineno">  68</span>             android:textColor="#ff7622"
+<span class="lineno">  69</span>             android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/custom_alert_dialog.xml">../../src/main/res/layout/custom_alert_dialog.xml</a>:79</span>: <span class="message">[I18N] Hardcoded string "&#30830;&#23450;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  76</span>             android:background="@drawable/btn_dialog_normal"
+<span class="lineno">  77</span>             android:gravity="center"
+<span class="lineno">  78</span>             android:singleLine="true"
+<span class="lineno">  79</span>             <span class="errorspan">android:text="&#30830;&#23450;"</span>
+<span class="lineno">  80</span>             android:textColor="#202020"
+<span class="lineno">  81</span>             android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:55</span>: <span class="message">[I18N] Hardcoded string "&#35831;&#22312;&#20809;&#32447;&#20805;&#36275;&#30340;&#24773;&#20917;&#19979;&#36827;&#34892;&#26816;&#27979;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  52</span>         android:layout_centerInParent="true"
+<span class="lineno">  53</span>         android:background="@drawable/face_prompt_icon"
+<span class="lineno">  54</span>         android:gravity="center"
+<span class="lineno">  55</span>         <span class="errorspan">android:text="&#35831;&#22312;&#20809;&#32447;&#20805;&#36275;&#30340;&#24773;&#20917;&#19979;&#36827;&#34892;&#26816;&#27979;"</span>
+<span class="lineno">  56</span>         android:textColor="#ffffffff"
+<span class="lineno">  57</span>         android:textSize="16sp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:68</span>: <span class="message">[I18N] Hardcoded string "&#35831;&#22312;&#20809;&#32447;&#20805;&#36275;&#30340;&#24773;&#20917;&#19979;&#36827;&#34892;&#26816;&#27979;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  65</span>         android:layout_centerHorizontal="true"
+<span class="lineno">  66</span>         android:layout_marginBottom="20dp"
+<span class="lineno">  67</span>         android:gravity="center"
+<span class="lineno">  68</span>         <span class="errorspan">android:text="&#35831;&#22312;&#20809;&#32447;&#20805;&#36275;&#30340;&#24773;&#20917;&#19979;&#36827;&#34892;&#26816;&#27979;"</span>
+<span class="lineno">  69</span>         android:textColor="#ffffffff"
+<span class="lineno">  70</span>         android:textSize="16sp"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 5 / 10<br/>
+Category: Internationalization</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Hardcoded text.</div>
+<div class="explanation">
+Hardcoding text attributes directly in layout files is bad for several reasons:<br/>
+<br/>
+* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)<br/>
+<br/>
+* The application cannot be translated to other languages by just adding new translations for existing string resources.<br/>
+<br/>
+In Android Studio and Eclipse there are quickfixes to automatically extract this hardcoded string into a resource lookup.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "HardcodedText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="RelativeOverlap"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">RelativeOverlap: Overlapping items in RelativeLayout</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_activity.xml">../../src/main/res/layout/ocr_idcard_activity.xml</a>:60</span>: <span class="message"><code>TextView-3</code> can overlap <code>@id/ocr_btn_next</code> if @string/ocr_idcard_message grows due to localized text expansion</span><br /><pre class="errorlines">
+<span class="lineno">  57</span>             android:layout_marginLeft="10dp"
+<span class="lineno">  58</span>             android:background="@drawable/ocr_id_redo" />
+<span class="lineno">  59</span> 
+<span class="lineno">  60</span>         <span class="errorspan">&lt;TextView</span>
+<span class="lineno">  61</span>             android:layout_width="wrap_content"
+<span class="lineno">  62</span>             android:layout_height="wrap_content"
+</pre>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Internationalization</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Overlapping items in RelativeLayout.</div>
+<div class="explanation">
+If relative layout has text or button items aligned to left and right sides they can overlap each other due to localized text expansion unless they have mutual constraints like <code>toEndOf</code>/<code>toStartOf</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "RelativeOverlap" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Internationalization:Bidirectional Text"></a>
+<div class="category"><a href="#" title="Return to top">Internationalization:Bidirectional Text</a><div class="categorySeparator"></div>
+</div>
+<a name="RtlSymmetry"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">RtlSymmetry: Padding and margin symmetry</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/face_custom_action_bar.xml">../../src/main/res/layout/face_custom_action_bar.xml</a>:13</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
+<span class="lineno">  10</span>         android:layout_height="fill_parent"
+<span class="lineno">  11</span>         android:layout_centerVertical="true"
+<span class="lineno">  12</span>         android:contentDescription="@string/face_imageview_des"
+<span class="lineno">  13</span>         <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno">  14</span>         android:scaleType="centerInside"
+<span class="lineno">  15</span>         android:src="@drawable/face_ab_goback_apptheme" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:118</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
+<span class="lineno"> 115</span>                     android:background="@null"
+<span class="lineno"> 116</span>                     android:gravity="center_vertical"
+<span class="lineno"> 117</span>                     android:inputType="text"
+<span class="lineno"> 118</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno"> 119</span>                     android:textColor="@color/text_light_grey1"
+<span class="lineno"> 120</span>                     android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:160</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
+<span class="lineno"> 157</span>                     android:gravity="center_vertical"
+<span class="lineno"> 158</span>                     android:inputType="text"
+<span class="lineno"> 159</span>                     android:maxLength="1"
+<span class="lineno"> 160</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno"> 161</span>                     android:textColor="@color/text_light_grey1"
+<span class="lineno"> 162</span>                     android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:201</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
+<span class="lineno"> 198</span>                     android:background="@null"
+<span class="lineno"> 199</span>                     android:gravity="center_vertical"
+<span class="lineno"> 200</span>                     android:inputType="number"
+<span class="lineno"> 201</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno"> 202</span>                     android:textColor="@color/text_light_grey1"
+<span class="lineno"> 203</span>                     android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:242</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
+<span class="lineno"> 239</span>                     android:background="@null"
+<span class="lineno"> 240</span>                     android:gravity="center_vertical"
+<span class="lineno"> 241</span>                     android:inputType="number"
+<span class="lineno"> 242</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno"> 243</span>                     android:textColor="@color/text_light_grey1"
+<span class="lineno"> 244</span>                     android:textSize="16sp" />
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Internationalization:Bidirectional Text</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Padding and margin symmetry.</div>
+<div class="explanation">
+If you specify padding or margin on the left side of a layout, you should probably also specify padding on the right side (and vice versa) for right-to-left layout symmetry.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "RtlSymmetry" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="RtlHardcoded"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">RtlHardcoded: Using left/right instead of start/end attributes</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout/face_custom_action_bar.xml">../../src/main/res/layout/face_custom_action_bar.xml</a>:13</span>: <span class="message">Consider adding <code>android:paddingStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  10</span>         android:layout_height="fill_parent"
+<span class="lineno">  11</span>         android:layout_centerVertical="true"
+<span class="lineno">  12</span>         android:contentDescription="@string/face_imageview_des"
+<span class="lineno">  13</span>         <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno">  14</span>         android:scaleType="centerInside"
+<span class="lineno">  15</span>         android:src="@drawable/face_ab_goback_apptheme" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_custom_action_bar.xml">../../src/main/res/layout/face_custom_action_bar.xml</a>:34</span>: <span class="message">Consider adding <code>android:layout_alignParentEnd="true"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  31</span>         android:id="@+id/face_txtCancel"
+<span class="lineno">  32</span>         android:layout_width="wrap_content"
+<span class="lineno">  33</span>         android:layout_height="fill_parent"
+<span class="lineno">  34</span>         <span class="errorspan">android:layout_alignParentRight="true"</span>
+<span class="lineno">  35</span>         android:layout_marginRight="10dp"
+<span class="lineno">  36</span>         android:gravity="center"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_custom_action_bar.xml">../../src/main/res/layout/face_custom_action_bar.xml</a>:35</span>: <span class="message">Consider adding <code>android:layout_marginEnd="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  32</span>         android:layout_width="wrap_content"
+<span class="lineno">  33</span>         android:layout_height="fill_parent"
+<span class="lineno">  34</span>         android:layout_alignParentRight="true"
+<span class="lineno">  35</span>         <span class="errorspan">android:layout_marginRight="10dp"</span>
+<span class="lineno">  36</span>         android:gravity="center"
+<span class="lineno">  37</span>         android:singleLine="true"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:82</span>: <span class="message">Consider adding <code>android:layout_marginStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  79</span>             android:id="@+id/face_detection_close"
+<span class="lineno">  80</span>             android:layout_width="30dp"
+<span class="lineno">  81</span>             android:layout_height="30dp"
+<span class="lineno">  82</span>             <span class="errorspan">android:layout_marginLeft="10dp"</span>
+<span class="lineno">  83</span>             android:scaleType="centerInside"
+<span class="lineno">  84</span>             android:src="@drawable/face_close_icon" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:116</span>: <span class="message">Consider adding <code>android:layout_alignParentEnd="true"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 113</span>             android:id="@+id/face_detection_sound_control"
+<span class="lineno"> 114</span>             android:layout_width="30dp"
+<span class="lineno"> 115</span>             android:layout_height="30dp"
+<span class="lineno"> 116</span>             <span class="errorspan">android:layout_alignParentRight="true"</span>
+<span class="lineno"> 117</span>             android:layout_marginRight="10dp"
+<span class="lineno"> 118</span>             android:scaleType="centerInside"
+</pre>
+<button id="RtlHardcodedDivLink" onclick="reveal('RtlHardcodedDiv');" />+ 15 More Occurrences...</button>
+<div id="RtlHardcodedDiv" style="display: none">
+<span class="location"><a href="../../src/main/res/layout/face_detection_activity.xml">../../src/main/res/layout/face_detection_activity.xml</a>:117</span>: <span class="message">Consider adding <code>android:layout_marginEnd="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 114</span>             android:layout_width="30dp"
+<span class="lineno"> 115</span>             android:layout_height="30dp"
+<span class="lineno"> 116</span>             android:layout_alignParentRight="true"
+<span class="lineno"> 117</span>             <span class="errorspan">android:layout_marginRight="10dp"</span>
+<span class="lineno"> 118</span>             android:scaleType="centerInside"
+<span class="lineno"> 119</span>             android:src="@drawable/face_detection_sound_opened" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_activity.xml">../../src/main/res/layout/ocr_idcard_activity.xml</a>:28</span>: <span class="message">Consider adding <code>android:layout_alignParentStart="true"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  25</span>             android:id="@+id/ocr_img_close"
+<span class="lineno">  26</span>             android:layout_width="wrap_content"
+<span class="lineno">  27</span>             android:layout_height="25dp"
+<span class="lineno">  28</span>             <span class="errorspan">android:layout_alignParentLeft="true"</span>
+<span class="lineno">  29</span>             android:layout_centerVertical="true"
+<span class="lineno">  30</span>             android:layout_marginLeft="10dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_activity.xml">../../src/main/res/layout/ocr_idcard_activity.xml</a>:30</span>: <span class="message">Consider adding <code>android:layout_marginStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  27</span>             android:layout_height="25dp"
+<span class="lineno">  28</span>             android:layout_alignParentLeft="true"
+<span class="lineno">  29</span>             android:layout_centerVertical="true"
+<span class="lineno">  30</span>             <span class="errorspan">android:layout_marginLeft="10dp"</span>
+<span class="lineno">  31</span>             android:src="@drawable/face_close_icon"
+<span class="lineno">  32</span>             tools:ignore="ContentDescription" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_activity.xml">../../src/main/res/layout/ocr_idcard_activity.xml</a>:55</span>: <span class="message">Consider adding <code>android:layout_alignParentStart="true"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  52</span>             android:id="@+id/ocr_btn_rephotograph"
+<span class="lineno">  53</span>             android:layout_width="40dp"
+<span class="lineno">  54</span>             android:layout_height="25dp"
+<span class="lineno">  55</span>             <span class="errorspan">android:layout_alignParentLeft="true"</span>
+<span class="lineno">  56</span>             android:layout_centerVertical="true"
+<span class="lineno">  57</span>             android:layout_marginLeft="10dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_activity.xml">../../src/main/res/layout/ocr_idcard_activity.xml</a>:57</span>: <span class="message">Consider adding <code>android:layout_marginStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  54</span>             android:layout_height="25dp"
+<span class="lineno">  55</span>             android:layout_alignParentLeft="true"
+<span class="lineno">  56</span>             android:layout_centerVertical="true"
+<span class="lineno">  57</span>             <span class="errorspan">android:layout_marginLeft="10dp"</span>
+<span class="lineno">  58</span>             android:background="@drawable/ocr_id_redo" />
+<span class="lineno">  59</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_activity.xml">../../src/main/res/layout/ocr_idcard_activity.xml</a>:72</span>: <span class="message">Consider adding <code>android:layout_alignParentEnd="true"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  69</span>             android:id="@+id/ocr_btn_next"
+<span class="lineno">  70</span>             android:layout_width="55dp"
+<span class="lineno">  71</span>             android:layout_height="25dp"
+<span class="lineno">  72</span>             <span class="errorspan">android:layout_alignParentRight="true"</span>
+<span class="lineno">  73</span>             android:layout_centerVertical="true"
+<span class="lineno">  74</span>             android:layout_marginRight="10dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_activity.xml">../../src/main/res/layout/ocr_idcard_activity.xml</a>:74</span>: <span class="message">Consider adding <code>android:layout_marginEnd="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  71</span>             android:layout_height="25dp"
+<span class="lineno">  72</span>             android:layout_alignParentRight="true"
+<span class="lineno">  73</span>             android:layout_centerVertical="true"
+<span class="lineno">  74</span>             <span class="errorspan">android:layout_marginRight="10dp"</span>
+<span class="lineno">  75</span>             android:background="@drawable/ocr_id_go" />
+<span class="lineno">  76</span>     &lt;/RelativeLayout>
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:36</span>: <span class="message">Consider adding <code>android:paddingStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  33</span>                     android:layout_weight="1"
+<span class="lineno">  34</span>                     android:gravity="center"
+<span class="lineno">  35</span>                     android:orientation="vertical"
+<span class="lineno">  36</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno">  37</span>                     android:paddingRight="5dp" >
+<span class="lineno">  38</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:37</span>: <span class="message">Consider adding <code>android:paddingEnd="5dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  34</span>                     android:gravity="center"
+<span class="lineno">  35</span>                     android:orientation="vertical"
+<span class="lineno">  36</span>                     android:paddingLeft="10dp"
+<span class="lineno">  37</span>                     <span class="errorspan">android:paddingRight="5dp" ></span>
+<span class="lineno">  38</span> 
+<span class="lineno">  39</span>                     &lt;ImageView
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:61</span>: <span class="message">Consider adding <code>android:paddingStart="5dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  58</span>                     android:layout_weight="1"
+<span class="lineno">  59</span>                     android:gravity="center"
+<span class="lineno">  60</span>                     android:orientation="vertical"
+<span class="lineno">  61</span>                     <span class="errorspan">android:paddingLeft="5dp"</span>
+<span class="lineno">  62</span>                     android:paddingRight="10dp" >
+<span class="lineno">  63</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:62</span>: <span class="message">Consider adding <code>android:paddingEnd="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  59</span>                     android:gravity="center"
+<span class="lineno">  60</span>                     android:orientation="vertical"
+<span class="lineno">  61</span>                     android:paddingLeft="5dp"
+<span class="lineno">  62</span>                     <span class="errorspan">android:paddingRight="10dp" ></span>
+<span class="lineno">  63</span> 
+<span class="lineno">  64</span>                     &lt;ImageView
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:118</span>: <span class="message">Consider adding <code>android:paddingStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 115</span>                     android:background="@null"
+<span class="lineno"> 116</span>                     android:gravity="center_vertical"
+<span class="lineno"> 117</span>                     android:inputType="text"
+<span class="lineno"> 118</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno"> 119</span>                     android:textColor="@color/text_light_grey1"
+<span class="lineno"> 120</span>                     android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:160</span>: <span class="message">Consider adding <code>android:paddingStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 157</span>                     android:gravity="center_vertical"
+<span class="lineno"> 158</span>                     android:inputType="text"
+<span class="lineno"> 159</span>                     android:maxLength="1"
+<span class="lineno"> 160</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno"> 161</span>                     android:textColor="@color/text_light_grey1"
+<span class="lineno"> 162</span>                     android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:201</span>: <span class="message">Consider adding <code>android:paddingStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 198</span>                     android:background="@null"
+<span class="lineno"> 199</span>                     android:gravity="center_vertical"
+<span class="lineno"> 200</span>                     android:inputType="number"
+<span class="lineno"> 201</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno"> 202</span>                     android:textColor="@color/text_light_grey1"
+<span class="lineno"> 203</span>                     android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../src/main/res/layout/ocr_idcard_information_activity.xml">../../src/main/res/layout/ocr_idcard_information_activity.xml</a>:242</span>: <span class="message">Consider adding <code>android:paddingStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 239</span>                     android:background="@null"
+<span class="lineno"> 240</span>                     android:gravity="center_vertical"
+<span class="lineno"> 241</span>                     android:inputType="number"
+<span class="lineno"> 242</span>                     <span class="errorspan">android:paddingLeft="10dp"</span>
+<span class="lineno"> 243</span>                     android:textColor="@color/text_light_grey1"
+<span class="lineno"> 244</span>                     android:textSize="16sp" />
+</pre>
+</div>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Internationalization:Bidirectional Text</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using left/right instead of start/end attributes.</div>
+<div class="explanation">
+Using <code>Gravity#LEFT</code> and <code>Gravity#RIGHT</code> can lead to problems when a layout is rendered in locales where text flows from right to left. Use <code>Gravity#START</code> and <code>Gravity#END</code> instead. Similarly, in XML <code>gravity</code> and <code>layout_gravity</code> attributes, use <code>start</code> rather than <code>left</code>.<br/>
+<br/>
+For XML attributes such as paddingLeft and <code>layout_marginLeft</code>, use <code>paddingStart</code> and <code>layout_marginStart</code>. <b>NOTE</b>: If your <code>minSdkVersion</code> is less than 17, you should add <b>both</b> the older left/right attributes <b>as well as</b> the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.<br/>
+<br/>
+(Note: For <code>Gravity#LEFT</code> and <code>Gravity#START</code>, you can use these constants even when targeting older platforms, because the <code>start</code> bitmask is a superset of the <code>left</code> bitmask. Therefore, you can use <code>gravity="start"</code> rather than <code>gravity="left|start"</code>.)
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "RtlHardcoded" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="MissingIssues"></a>
+<div class="category">Disabled Checks<div class="categorySeparator"></div>
+</div>
+The following issues were not run by lint, either because the check is not enabled by default, or because it was disabled with a command line flag or via one or more lint.xml configuration files in the project directories.
+<br/><br/>
+<a name="AppLinksAutoVerifyError"></a>
+<div class="issue">
+<div class="id">AppLinksAutoVerifyError<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: App Links Auto Verification Failure.</div>
+<div class="explanation">
+Ensures that app links are correctly set and associated with website.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/appindexing/applinks">https://g.co/appindexing/applinks</a>
+</div><br/>To suppress this error, use the issue id "AppLinksAutoVerifyError" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="AppLinksAutoVerifyWarning"></a>
+<div class="issue">
+<div class="id">AppLinksAutoVerifyWarning<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Potential App Links Auto Verification Failure.</div>
+<div class="explanation">
+Ensures that app links are correctly set and associated with website.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/appindexing/applinks">https://g.co/appindexing/applinks</a>
+</div><br/>To suppress this error, use the issue id "AppLinksAutoVerifyWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="BackButton"></a>
+<div class="issue">
+<div class="id">BackButton<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Back button.</div>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Other platforms use an explicit back button with label to allow the user to navigate up the application's hierarchy. Instead, Android uses the main action bar's app icon for hierarchical navigation and the navigation bar's back button for temporal navigation."<br/>
+This check is not very sophisticated (it just looks for buttons with the label "Back"), so it is disabled by default to not trigger on common scenarios like pairs of Back/Next buttons to paginate through screens.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/patterns/pure-android.html">http://developer.android.com/design/patterns/pure-android.html</a>
+</div><br/>To suppress this error, use the issue id "BackButton" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="EasterEgg"></a>
+<div class="issue">
+<div class="id">EasterEgg<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains easter egg.</div>
+<div class="explanation">
+An "easter egg" is code deliberately hidden in the code, both from potential users and even from other developers. This lint check looks for code which looks like it may be hidden from sight.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "EasterEgg" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="FieldGetter"></a>
+<div class="issue">
+<div class="id">FieldGetter<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using getter instead of field.</div>
+<div class="explanation">
+Accessing a field within the class that defines a getter for that field is at least 3 times faster than calling the getter. For simple getters that do nothing other than return the field, you might want to just reference the local field directly instead.<br/>
+<br/>
+<b>NOTE</b>: As of Android 2.3 (Gingerbread), this optimization is performed automatically by Dalvik, so there is no need to change your code; this is only relevant if you are targeting older versions of Android.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/design/performance.html#internal_get_set">http://developer.android.com/guide/practices/design/performance.html#internal_get_set</a>
+</div><br/>To suppress this error, use the issue id "FieldGetter" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="GoogleAppIndexingApiWarning"></a>
+<div class="issue">
+<div class="id">GoogleAppIndexingApiWarning<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing support for Google App Indexing Api.</div>
+<div class="explanation">
+Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/AppIndexing/AndroidStudio">https://g.co/AppIndexing/AndroidStudio</a>
+</div><br/>To suppress this error, use the issue id "GoogleAppIndexingApiWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconExpectedSize"></a>
+<div class="issue">
+<div class="id">IconExpectedSize<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon has incorrect size.</div>
+<div class="explanation">
+There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/style/iconography.html">http://developer.android.com/design/style/iconography.html</a>
+</div><br/>To suppress this error, use the issue id "IconExpectedSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="LogConditional"></a>
+<div class="issue">
+<div class="id">LogConditional<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unconditional Logging Calls.</div>
+<div class="explanation">
+The BuildConfig class (available in Tools 17) provides a constant, "DEBUG", which indicates whether the code is being built in release mode or in debug mode. In release mode, you typically want to strip out all the logging calls. Since the compiler will automatically remove all code which is inside a "if (false)" check, surrounding your logging calls with a check for BuildConfig.DEBUG is a good idea.<br/>
+<br/>
+If you <b>really</b> intend for the logging to be present in release mode, you can suppress this warning with a @SuppressLint annotation for the intentional logging calls.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "LogConditional" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="MangledCRLF"></a>
+<div class="issue">
+<div class="id">MangledCRLF<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 2 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: Mangled file line endings.</div>
+<div class="explanation">
+On Windows, line endings are typically recorded as carriage return plus newline: \r\n.<br/>
+<br/>
+This detector looks for invalid line endings with repeated carriage return characters (without newlines). Previous versions of the ADT plugin could accidentally introduce these into the file, and when editing the file, the editor could produce confusing visual artifacts.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=375421">https://bugs.eclipse.org/bugs/show_bug.cgi?id=375421</a>
+</div><br/>To suppress this error, use the issue id "MangledCRLF" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NegativeMargin"></a>
+<div class="issue">
+<div class="id">NegativeMargin<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Negative Margins.</div>
+<div class="explanation">
+Margin values should be positive. Negative values are generally a sign that you are making assumptions about views surrounding the current one, or may be tempted to turn off child clipping to allow a view to escape its parent. Turning off child clipping to do this not only leads to poor graphical performance, it also results in wrong touch event handling since touch events are based strictly on a chain of parent-rect hit tests. Finally, making assumptions about the size of strings can lead to localization problems.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NegativeMargin" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NewerVersionAvailable"></a>
+<div class="issue">
+<div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Newer Library Versions Available.</div>
+<div class="explanation">
+This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the <code>GradleDependency</code> check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also <b>much</b> slower.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewerVersionAvailable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="SelectableText"></a>
+<div class="issue">
+<div class="id">SelectableText<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 7 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Dynamic text should probably be selectable.</div>
+<div class="explanation">
+If a <code>&lt;TextView></code> is used to display data, the user might want to copy that data and paste it elsewhere. To allow this, the <code>&lt;TextView></code> should specify <code>android:textIsSelectable="true"</code>.<br/>
+<br/>
+This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="StopShip"></a>
+<div class="issue">
+<div class="id">StopShip<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 10 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains <code>STOPSHIP</code> marker.</div>
+<div class="explanation">
+Using the comment <code>// STOPSHIP</code> can be used to flag code that is incomplete but checked in. This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "StopShip" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="TypographyQuotes"></a>
+<div class="issue">
+<div class="id">TypographyQuotes<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Straight quotes can be replaced with curvy quotes.</div>
+<div class="explanation">
+Straight single quotes and double quotes, when used as a pair, can be replaced by "curvy quotes" (or directional quotes). This can make the text more readable.<br/>
+<br/>
+Note that you should never use grave accents and apostrophes to quote, `like this'.<br/>
+<br/>
+(Also note that you should not use curvy quotes for code fragments.)
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Quotation_mark">http://en.wikipedia.org/wiki/Quotation_mark</a>
+</div><br/>To suppress this error, use the issue id "TypographyQuotes" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedIds"></a>
+<div class="issue">
+<div class="id">UnusedIds<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 1 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused id.</div>
+<div class="explanation">
+This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="SuppressInfo"></a>
+<div class="category">Suppressing Warnings and Errors<div class="categorySeparator"></div>
+</div>
+Lint errors can be suppressed in a variety of ways:<br/>
+<br/>
+1. With a <code>@SuppressLint</code> annotation in the Java code<br/>
+2. With a <code>tools:ignore</code> attribute in the XML file<br/>
+3. With ignore flags specified in the <code>build.gradle</code> file, as explained below<br/>
+4. With a <code>lint.xml</code> configuration file in the project<br/>
+5. With a <code>lint.xml</code> configuration file passed to lint via the --config flag<br/>
+6. With the --ignore flag passed to lint.<br/>
+<br/>
+To suppress a lint warning with an annotation, add a <code>@SuppressLint("id")</code> annotation on the class, method or variable declaration closest to the warning instance you want to disable. The id can be one or more issue id's, such as <code>"UnusedResources"</code> or <code>{"UnusedResources","UnusedIds"}</code>, or it can be <code>"all"</code> to suppress all lint warnings in the given scope.<br/>
+<br/>
+To suppress a lint warning in an XML file, add a <code>tools:ignore="id"</code> attribute on the element containing the error, or one of its surrounding elements. You also need to define the namespace for the tools prefix on the root element in your document, next to the <code>xmlns:android</code> declaration:<br/>
+<code>xmlns:tools="http://schemas.android.com/tools"</code><br/>
+<br/>
+To suppress a lint warning in a <code>build.gradle</code> file, add a section like this:<br/>
+<br/>
+android {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;lintOptions {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disable 'TypographyFractions','TypographyQuotes'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+}<br/>
+<br/>
+Here we specify a comma separated list of issue id's after the disable command. You can also use <code>warning</code> or <code>error</code> instead of <code>disable</code> to change the severity of issues.<br/>
+<br/>
+To suppress lint warnings with a configuration XML file, create a file named <code>lint.xml</code> and place it at the root directory of the project in which it applies.<br/>
+<br/>
+The format of the <code>lint.xml</code> file is something like the following:<br/>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Disable this given check in this project --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="ObsoleteLayoutParam"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="UselessLeaf"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/main.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
+<br/>
+To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
+<code>$ lint --ignore UnusedResources,UselessLeaf /my/project/path</code><br/>
+<br/>
+For more information, see <a href="http://g.co/androidstudio/suppressing-lint-warnings">http://g.co/androidstudio/suppressing-lint-warnings</a><br/>
+
+
+</body>
+</html>

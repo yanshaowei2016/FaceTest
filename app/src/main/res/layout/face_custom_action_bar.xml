@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/face_ab_solid_apptheme" >
+
+    <ImageView
+        android:id="@+id/face_img_goback"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/face_imageview_des"
+        android:paddingLeft="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/face_ab_goback_apptheme" />
+
+    <TextView
+        android:id="@+id/face_txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxEms="12"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/face_txtCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/face_cancel_txt"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="back_color">#F5F5F5</color>
+    <color name="gray">#EAEAEA</color>
+    <color name="line_color">#E6E6E6</color>
+    <color name="text_black_color">#363636</color>
+    <color name="black">#000000</color>
+    <color name="text_light_grey1">#a7a7a7</color>
+    <color name="text_light_grey2">#9a9a9a</color>
+    <color name="text_pink">#ff2d55</color>
+    <color name="translucence">#77000000</color>
+
+    <!-- 文字颜色：紫色 -->
+    <color name="text_color">#333333</color>
+    <color name="main_tab_title_purple">#666666</color>
+    <color name="face_window_bg_color">#f5f5f5</color>
+
+</resources>
