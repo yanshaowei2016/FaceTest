@@ -15,6 +15,7 @@
         android:theme="@style/AppTheme" >
 
         <!-- ocr -->
+        <!--ocr引导页-->
         <activity
             android:name="com.ocrtest.OcrStarCollectActivity"
             android:configChanges="keyboardHidden|orientation"
