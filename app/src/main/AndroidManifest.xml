@@ -45,6 +45,7 @@
             android:screenOrientation="portrait" />
 
         <!-- 活体检测 -->
+        <!--活体引导页-->
         <activity
             android:name=".GuideActivity"
             android:configChanges="keyboardHidden|orientation"
